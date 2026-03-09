@@ -1,0 +1,28 @@
+# Red White Jesus -- LLM Discovery File
+# https://redwhitejesus.com/llms.txt
+
+## Organization
+Name: Red White Jesus
+Type: Christian-American faith and culture site
+Website: https://redwhitejesus.com
+
+## Mission
+Red White Jesus explores Christian-American faith and culture. We publish content on Biblical teaching, Christian holidays, and family values. This is a faith site, not a political one.
+
+## Content
+- Biblical teaching and scripture study
+- Christian holiday guides (Christmas, Easter, Lent, Advent)
+- Faith and family values content
+- Christian-American cultural heritage articles
+
+## Topics Covered
+- Bible study and scripture
+- Christian holidays and traditions
+- Christian faith in American life
+- Family values and faith
+- Church history and theology
+- Prayer and devotional practice
+- Christian community resources
+
+## Affiliations
+Part of the Wu-Tang AI Clan network of sites: webearish.com, thevoiceofcash.com, jewsa.com, u-god.com, aiskillsagents.com, allahican.com, redwhitejesus.com, autismacceptance.world, searchperformancemarketing.com, shadyscanner.com
