@@ -1,7 +1,21 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Instrument_Serif, Space_Grotesk } from "next/font/google";
 import { CartProvider } from "../lib/cart-context";
 import Header from "../components/Header";
+
+const instrumentSerif = Instrument_Serif({
+  weight: "400",
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-heading",
+});
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-body",
+});
 
 export const metadata: Metadata = {
   title: "RedWhiteJesus -- One Nation. Under God. Undeniably American.",
@@ -45,7 +59,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${instrumentSerif.variable} ${spaceGrotesk.variable}`}>
       <body>
         <CartProvider>
           <Header />
@@ -54,7 +68,7 @@ export default function RootLayout({
 
           <footer
             style={{
-              backgroundColor: "#0D0A10",
+              backgroundColor: "#F8F7F5",
               borderTop: "2px solid #CC2200",
               padding: "48px 24px 32px",
               marginTop: 80,
@@ -81,13 +95,13 @@ export default function RootLayout({
                       fontSize: 20,
                       fontWeight: 700,
                       marginBottom: 8,
-                      fontFamily: "Georgia, serif",
+                      fontFamily: "var(--font-heading), serif",
                     }}
                   >
-                    <span style={{ color: "#F5F0E8" }}>Red White</span>
+                    <span style={{ color: "#1A1A1A" }}>Red White</span>
                     <span style={{ color: "#CC2200" }}> Jesus</span>
                   </div>
-                  <p style={{ color: "#a09888", fontSize: 14, lineHeight: 1.7 }}>
+                  <p style={{ color: "#6A6A6A", fontSize: 14, lineHeight: 1.7 }}>
                     One Nation. Under God. Undeniably American.
                     <br />
                     Blessed and dressed since Bethlehem.
@@ -97,7 +111,7 @@ export default function RootLayout({
                 <div style={{ minWidth: 160 }}>
                   <div
                     style={{
-                      color: "#D4AF37",
+                      color: "#B8960C",
                       fontSize: 11,
                       fontWeight: 700,
                       letterSpacing: "0.12em",
@@ -117,7 +131,7 @@ export default function RootLayout({
                       <a
                         key={l.label}
                         href={l.href}
-                        style={{ color: "#a09888", fontSize: 14, textDecoration: "none" }}
+                        style={{ color: "#6A6A6A", fontSize: 14, textDecoration: "none" }}
                       >
                         {l.label}
                       </a>
@@ -128,7 +142,7 @@ export default function RootLayout({
                 <div style={{ minWidth: 220 }}>
                   <div
                     style={{
-                      color: "#D4AF37",
+                      color: "#B8960C",
                       fontSize: 11,
                       fontWeight: 700,
                       letterSpacing: "0.12em",
@@ -151,7 +165,7 @@ export default function RootLayout({
                         href={site.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        style={{ color: "#a09888", fontSize: 14, textDecoration: "none" }}
+                        style={{ color: "#6A6A6A", fontSize: 14, textDecoration: "none" }}
                       >
                         {site.label}
                       </a>
@@ -162,7 +176,7 @@ export default function RootLayout({
 
               <div
                 style={{
-                  borderTop: "1px solid #2a2030",
+                  borderTop: "1px solid #E8E6E1",
                   paddingTop: 24,
                   display: "flex",
                   flexWrap: "wrap",
@@ -171,10 +185,10 @@ export default function RootLayout({
                   alignItems: "center",
                 }}
               >
-                <p style={{ color: "#5a5060", fontSize: 13 }}>
+                <p style={{ color: "#8A8A8A", fontSize: 13 }}>
                   &copy; {new Date().getFullYear()} RedWhiteJesus. All rights reserved. Made with faith and a healthy respect for the First Amendment.
                 </p>
-                <p style={{ color: "#5a5060", fontSize: 13 }}>
+                <p style={{ color: "#8A8A8A", fontSize: 13 }}>
                   Not affiliated with any political party. Just God and country.
                 </p>
               </div>

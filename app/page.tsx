@@ -385,7 +385,7 @@ export default function HomePage() {
             <span
               key={i}
               style={{
-                color: "#F5F0E8",
+                color: "#FFFFFF",
                 fontSize: 12,
                 fontWeight: 600,
                 letterSpacing: "0.1em",
@@ -401,7 +401,8 @@ export default function HomePage() {
       <section
         className="hero-section"
         style={{
-          background: "linear-gradient(160deg, #0f0c14 0%, #1B3A6B22 100%)",
+          background: "#FFFFFF",
+          borderBottom: "1px solid #E8E6E1",
           padding: "80px 24px 72px",
           textAlign: "center",
           minHeight: 420,
@@ -426,16 +427,16 @@ export default function HomePage() {
               lineHeight: 1.1,
               letterSpacing: "-0.01em",
               marginBottom: 8,
-              fontFamily: "Georgia, serif",
+              fontFamily: "var(--font-heading), serif",
             }}
           >
-            <span style={{ color: "#F5F0E8" }}>{slide.line1}</span>
+            <span style={{ color: "#1A1A1A" }}>{slide.line1}</span>
             <br />
             <span style={{ color: "#CC2200" }}>{slide.line2}</span>
           </h1>
           <p
             style={{
-              color: "#a09888",
+              color: "#6A6A6A",
               fontSize: "clamp(15px, 2.5vw, 20px)",
               marginTop: 20,
               maxWidth: 560,
@@ -459,7 +460,7 @@ export default function HomePage() {
               href="https://store.redwhitejesus.com?tag=redwhitejesus-20"
               style={{
                 backgroundColor: "#CC2200",
-                color: "#F5F0E8",
+                color: "#FFFFFF",
                 padding: "14px 32px",
                 borderRadius: 4,
                 fontWeight: 700,
@@ -476,7 +477,7 @@ export default function HomePage() {
               href="/blog"
               style={{
                 border: "2px solid #D4AF37",
-                color: "#D4AF37",
+                color: "#B8960C",
                 padding: "14px 32px",
                 borderRadius: 4,
                 fontWeight: 700,
@@ -509,7 +510,7 @@ export default function HomePage() {
                 height: 8,
                 borderRadius: 4,
                 border: "none",
-                backgroundColor: i === heroIndex ? "#CC2200" : "#3a3040",
+                backgroundColor: i === heroIndex ? "#CC2200" : "#D8D4CE",
                 transition: "all 0.3s ease",
                 padding: 0,
                 cursor: "pointer",
@@ -531,7 +532,7 @@ export default function HomePage() {
         <div style={{ textAlign: "center", marginBottom: 40 }}>
           <div
             style={{
-              color: "#D4AF37",
+              color: "#B8960C",
               fontSize: 11,
               fontWeight: 700,
               letterSpacing: "0.14em",
@@ -545,14 +546,14 @@ export default function HomePage() {
             style={{
               fontSize: "clamp(24px, 4vw, 38px)",
               fontWeight: 700,
-              color: "#F5F0E8",
-              fontFamily: "Georgia, serif",
+              color: "#1A1A1A",
+              fontFamily: "var(--font-heading), serif",
               marginBottom: 12,
             }}
           >
             Shop for the Occasion
           </h2>
-          <p style={{ color: "#a09888", fontSize: 15, maxWidth: 480, margin: "0 auto" }}>
+          <p style={{ color: "#6A6A6A", fontSize: 15, maxWidth: 480, margin: "0 auto" }}>
             From Christmas morning to just-because Tuesday. Faith doesn't need a reason.
           </p>
         </div>
@@ -574,22 +575,23 @@ export default function HomePage() {
                 flexDirection: "column",
                 alignItems: "center",
                 gap: 10,
-                backgroundColor: "#110e16",
-                border: "1px solid #2a2030",
+                backgroundColor: "#FFFFFF",
+                border: "1px solid #E8E6E1",
                 borderRadius: 8,
                 padding: "20px 20px",
-                color: "#F5F0E8",
+                color: "#1A1A1A",
                 fontSize: 13,
                 fontWeight: 600,
                 minWidth: 120,
                 textDecoration: "none",
-                transition: "border-color 0.2s",
+                transition: "border-color 0.2s, box-shadow 0.2s",
                 flex: "0 0 auto",
+                boxShadow: "0 1px 3px rgba(0,0,0,0.06)",
               }}
             >
               {occ.icon}
               <span style={{ fontSize: 14, fontWeight: 700 }}>{occ.name}</span>
-              <span style={{ color: "#a09888", fontSize: 12, textAlign: "center", maxWidth: 100 }}>{occ.description}</span>
+              <span style={{ color: "#8A8A8A", fontSize: 12, textAlign: "center", maxWidth: 100 }}>{occ.description}</span>
             </a>
           ))}
         </div>
@@ -598,7 +600,7 @@ export default function HomePage() {
       {/* Products */}
       <section
         style={{
-          backgroundColor: "#0D0A10",
+          backgroundColor: "#F8F7F5",
           padding: "64px 24px",
         }}
       >
@@ -606,7 +608,7 @@ export default function HomePage() {
           <div style={{ textAlign: "center", marginBottom: 40 }}>
             <div
               style={{
-                color: "#D4AF37",
+                color: "#B8960C",
                 fontSize: 11,
                 fontWeight: 700,
                 letterSpacing: "0.14em",
@@ -620,8 +622,8 @@ export default function HomePage() {
               style={{
                 fontSize: "clamp(24px, 4vw, 38px)",
                 fontWeight: 700,
-                color: "#F5F0E8",
-                fontFamily: "Georgia, serif",
+                color: "#1A1A1A",
+                fontFamily: "var(--font-heading), serif",
               }}
             >
               Featured Gear
@@ -638,17 +640,18 @@ export default function HomePage() {
               <div
                 key={p.id}
                 style={{
-                  backgroundColor: "#15111c",
-                  border: "1px solid #2a2030",
+                  backgroundColor: "#FFFFFF",
+                  border: "1px solid #E8E6E1",
                   borderRadius: 8,
                   padding: 24,
                   display: "flex",
                   flexDirection: "column",
+                  boxShadow: "0 1px 4px rgba(0,0,0,0.06)",
                 }}
               >
                 <div
                   style={{
-                    backgroundColor: "#1f1828",
+                    backgroundColor: "#F8F7F5",
                     borderRadius: 6,
                     height: 160,
                     marginBottom: 20,
@@ -670,18 +673,18 @@ export default function HomePage() {
                 </div>
                 <h3
                   style={{
-                    color: "#F5F0E8",
+                    color: "#1A1A1A",
                     fontSize: 17,
                     fontWeight: 700,
                     marginBottom: 8,
-                    fontFamily: "Georgia, serif",
+                    fontFamily: "var(--font-heading), serif",
                   }}
                 >
                   {p.name}
                 </h3>
                 <p
                   style={{
-                    color: "#a09888",
+                    color: "#6A6A6A",
                     fontSize: 14,
                     lineHeight: 1.6,
                     marginBottom: 16,
@@ -700,7 +703,7 @@ export default function HomePage() {
                 >
                   <span
                     style={{
-                      color: "#D4AF37",
+                      color: "#B8960C",
                       fontSize: 22,
                       fontWeight: 700,
                     }}
@@ -712,7 +715,7 @@ export default function HomePage() {
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{
-                      color: "#a09888",
+                      color: "#8A8A8A",
                       fontSize: 12,
                       textDecoration: "underline",
                     }}
@@ -724,7 +727,7 @@ export default function HomePage() {
                   onClick={() => handleAddToCart(p)}
                   style={{
                     backgroundColor: addedId === p.id ? "#2a6e2a" : "#CC2200",
-                    color: "#F5F0E8",
+                    color: "#FFFFFF",
                     padding: "11px 16px",
                     borderRadius: 4,
                     border: "none",
@@ -774,7 +777,7 @@ export default function HomePage() {
         <div style={{ textAlign: "center", marginBottom: 40 }}>
           <div
             style={{
-              color: "#D4AF37",
+              color: "#B8960C",
               fontSize: 11,
               fontWeight: 700,
               letterSpacing: "0.14em",
@@ -788,8 +791,8 @@ export default function HomePage() {
             style={{
               fontSize: "clamp(24px, 4vw, 38px)",
               fontWeight: 700,
-              color: "#F5F0E8",
-              fontFamily: "Georgia, serif",
+              color: "#1A1A1A",
+              fontFamily: "var(--font-heading), serif",
             }}
           >
             Christian America
@@ -806,11 +809,12 @@ export default function HomePage() {
             <div
               key={s.stat}
               style={{
-                backgroundColor: "#110e16",
-                border: "1px solid #2a2030",
+                backgroundColor: "#FFFFFF",
+                border: "1px solid #E8E6E1",
                 borderLeft: "4px solid #CC2200",
                 borderRadius: 8,
                 padding: 28,
+                boxShadow: "0 1px 4px rgba(0,0,0,0.05)",
               }}
             >
               <div
@@ -818,7 +822,7 @@ export default function HomePage() {
                   fontSize: 40,
                   fontWeight: 800,
                   color: "#CC2200",
-                  fontFamily: "Georgia, serif",
+                  fontFamily: "var(--font-heading), serif",
                   marginBottom: 4,
                 }}
               >
@@ -826,7 +830,7 @@ export default function HomePage() {
               </div>
               <div
                 style={{
-                  color: "#F5F0E8",
+                  color: "#1A1A1A",
                   fontSize: 15,
                   fontWeight: 600,
                   marginBottom: 12,
@@ -834,7 +838,7 @@ export default function HomePage() {
               >
                 {s.label}
               </div>
-              <p style={{ color: "#a09888", fontSize: 14, lineHeight: 1.7 }}>
+              <p style={{ color: "#6A6A6A", fontSize: 14, lineHeight: 1.7 }}>
                 {s.detail}
               </p>
             </div>
@@ -845,7 +849,7 @@ export default function HomePage() {
       {/* Brand Story */}
       <section
         style={{
-          backgroundColor: "#0D0A10",
+          backgroundColor: "#F8F7F5",
           padding: "64px 24px",
         }}
       >
@@ -863,7 +867,7 @@ export default function HomePage() {
             <div>
               <div
                 style={{
-                  color: "#D4AF37",
+                  color: "#B8960C",
                   fontSize: 11,
                   fontWeight: 700,
                   letterSpacing: "0.14em",
@@ -877,27 +881,27 @@ export default function HomePage() {
                 style={{
                   fontSize: "clamp(26px, 4vw, 42px)",
                   fontWeight: 800,
-                  color: "#F5F0E8",
-                  fontFamily: "Georgia, serif",
+                  color: "#1A1A1A",
+                  fontFamily: "var(--font-heading), serif",
                   lineHeight: 1.15,
                   marginBottom: 20,
                 }}
               >
                 Why RedWhiteJesus Exists
               </h2>
-              <p style={{ color: "#c8bfb0", fontSize: 16, lineHeight: 1.8, marginBottom: 16 }}>
+              <p style={{ color: "#4A4A4A", fontSize: 16, lineHeight: 1.8, marginBottom: 16 }}>
                 We noticed something. Christian-Americans -- one of the largest identities in the country -- didn't have a brand that spoke their language without being cheesy, preachy, or embarrassing to wear in public.
               </p>
-              <p style={{ color: "#a09888", fontSize: 15, lineHeight: 1.8, marginBottom: 16 }}>
+              <p style={{ color: "#6A6A6A", fontSize: 15, lineHeight: 1.8, marginBottom: 16 }}>
                 Faith and patriotism aren't opposites. They've been woven together in American life since the first colonial settlements. The founders debated theology. The abolitionists quoted scripture. The civil rights movement was led from church pulpits. Christianity shaped this country, and this country shaped Christianity.
               </p>
-              <p style={{ color: "#a09888", fontSize: 15, lineHeight: 1.8, marginBottom: 28 }}>
+              <p style={{ color: "#6A6A6A", fontSize: 15, lineHeight: 1.8, marginBottom: 28 }}>
                 RedWhiteJesus is for people who hold both identities without apology. We make gear that's worth wearing, content that's worth reading, and a community that's worth joining. No sanctimony. No shaming. Just faith, freedom, and honest design.
               </p>
               <a
                 href="/blog"
                 style={{
-                  color: "#D4AF37",
+                  color: "#B8960C",
                   fontSize: 14,
                   fontWeight: 700,
                   letterSpacing: "0.06em",
@@ -920,13 +924,14 @@ export default function HomePage() {
             {/* Visual side */}
             <div
               style={{
-                backgroundColor: "#110e16",
-                border: "1px solid #2a2030",
+                backgroundColor: "#FFFFFF",
+                border: "1px solid #E8E6E1",
                 borderRadius: 12,
                 padding: "48px 40px",
                 display: "flex",
                 flexDirection: "column",
                 gap: 24,
+                boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
               }}
             >
               {[
@@ -939,8 +944,8 @@ export default function HomePage() {
                     style={{
                       width: 44,
                       height: 44,
-                      backgroundColor: "rgba(204,34,0,0.15)",
-                      border: "1px solid rgba(204,34,0,0.3)",
+                      backgroundColor: "rgba(204,34,0,0.08)",
+                      border: "1px solid rgba(204,34,0,0.2)",
                       borderRadius: 8,
                       display: "flex",
                       alignItems: "center",
@@ -965,10 +970,10 @@ export default function HomePage() {
                     )}
                   </div>
                   <div>
-                    <div style={{ color: "#F5F0E8", fontSize: 15, fontWeight: 700, marginBottom: 4 }}>
+                    <div style={{ color: "#1A1A1A", fontSize: 15, fontWeight: 700, marginBottom: 4 }}>
                       {item.label}
                     </div>
-                    <p style={{ color: "#a09888", fontSize: 14, lineHeight: 1.6 }}>
+                    <p style={{ color: "#6A6A6A", fontSize: 14, lineHeight: 1.6 }}>
                       {item.text}
                     </p>
                   </div>
@@ -990,7 +995,7 @@ export default function HomePage() {
         <div style={{ textAlign: "center", marginBottom: 40 }}>
           <div
             style={{
-              color: "#D4AF37",
+              color: "#B8960C",
               fontSize: 11,
               fontWeight: 700,
               letterSpacing: "0.14em",
@@ -1004,15 +1009,15 @@ export default function HomePage() {
             style={{
               fontSize: "clamp(24px, 4vw, 38px)",
               fontWeight: 700,
-              color: "#F5F0E8",
-              fontFamily: "Georgia, serif",
+              color: "#1A1A1A",
+              fontFamily: "var(--font-heading), serif",
             }}
           >
             The Christian Glossary
           </h2>
           <p
             style={{
-              color: "#a09888",
+              color: "#6A6A6A",
               fontSize: 16,
               marginTop: 12,
               maxWidth: 520,
@@ -1034,10 +1039,11 @@ export default function HomePage() {
             <div
               key={g.term}
               style={{
-                backgroundColor: "#110e16",
-                border: "1px solid #2a2030",
+                backgroundColor: "#FFFFFF",
+                border: "1px solid #E8E6E1",
                 borderRadius: 8,
                 padding: 24,
+                boxShadow: "0 1px 3px rgba(0,0,0,0.05)",
               }}
             >
               <div
@@ -1045,13 +1051,13 @@ export default function HomePage() {
                   color: "#CC2200",
                   fontSize: 18,
                   fontWeight: 800,
-                  fontFamily: "Georgia, serif",
+                  fontFamily: "var(--font-heading), serif",
                   marginBottom: 8,
                 }}
               >
                 {g.term}
               </div>
-              <p style={{ color: "#c8bfb0", fontSize: 14, lineHeight: 1.7 }}>
+              <p style={{ color: "#4A4A4A", fontSize: 14, lineHeight: 1.7 }}>
                 {g.def}
               </p>
             </div>
@@ -1059,10 +1065,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Is This Disrespectful? FAQ */}
+      {/* FAQ */}
       <section
         style={{
-          backgroundColor: "#0D0A10",
+          backgroundColor: "#F8F7F5",
           padding: "64px 24px",
         }}
       >
@@ -1070,7 +1076,7 @@ export default function HomePage() {
           <div style={{ textAlign: "center", marginBottom: 40 }}>
             <div
               style={{
-                color: "#D4AF37",
+                color: "#B8960C",
                 fontSize: 11,
                 fontWeight: 700,
                 letterSpacing: "0.14em",
@@ -1084,14 +1090,14 @@ export default function HomePage() {
               style={{
                 fontSize: "clamp(24px, 4vw, 38px)",
                 fontWeight: 700,
-                color: "#F5F0E8",
-                fontFamily: "Georgia, serif",
+                color: "#1A1A1A",
+                fontFamily: "var(--font-heading), serif",
                 marginBottom: 12,
               }}
             >
               Is This Disrespectful?
             </h2>
-            <p style={{ color: "#a09888", fontSize: 16, maxWidth: 520, margin: "0 auto" }}>
+            <p style={{ color: "#6A6A6A", fontSize: 16, maxWidth: 520, margin: "0 auto" }}>
               The questions people actually ask. The answers we actually give.
             </p>
           </div>
@@ -1107,10 +1113,11 @@ export default function HomePage() {
               <div
                 key={i}
                 style={{
-                  backgroundColor: "#15111c",
-                  border: "1px solid #2a2030",
+                  backgroundColor: "#FFFFFF",
+                  border: "1px solid #E8E6E1",
                   borderRadius: 8,
                   padding: 28,
+                  boxShadow: "0 1px 4px rgba(0,0,0,0.05)",
                 }}
               >
                 <div
@@ -1123,7 +1130,7 @@ export default function HomePage() {
                 >
                   <div
                     style={{
-                      backgroundColor: "rgba(204,34,0,0.15)",
+                      backgroundColor: "rgba(204,34,0,0.08)",
                       color: "#CC2200",
                       fontSize: 12,
                       fontWeight: 800,
@@ -1141,7 +1148,7 @@ export default function HomePage() {
                   </div>
                   <h3
                     style={{
-                      color: "#F5F0E8",
+                      color: "#1A1A1A",
                       fontSize: 16,
                       fontWeight: 700,
                       lineHeight: 1.4,
@@ -1158,8 +1165,8 @@ export default function HomePage() {
                 >
                   <div
                     style={{
-                      backgroundColor: "rgba(212,175,55,0.1)",
-                      color: "#D4AF37",
+                      backgroundColor: "rgba(212,175,55,0.12)",
+                      color: "#B8960C",
                       fontSize: 12,
                       fontWeight: 800,
                       width: 28,
@@ -1173,7 +1180,7 @@ export default function HomePage() {
                   >
                     A
                   </div>
-                  <p style={{ color: "#c8bfb0", fontSize: 14, lineHeight: 1.7 }}>
+                  <p style={{ color: "#4A4A4A", fontSize: 14, lineHeight: 1.7 }}>
                     {item.a}
                   </p>
                 </div>
@@ -1194,7 +1201,7 @@ export default function HomePage() {
         <div style={{ textAlign: "center", marginBottom: 40 }}>
           <div
             style={{
-              color: "#D4AF37",
+              color: "#B8960C",
               fontSize: 11,
               fontWeight: 700,
               letterSpacing: "0.14em",
@@ -1208,8 +1215,8 @@ export default function HomePage() {
             style={{
               fontSize: "clamp(24px, 4vw, 38px)",
               fontWeight: 700,
-              color: "#F5F0E8",
-              fontFamily: "Georgia, serif",
+              color: "#1A1A1A",
+              fontFamily: "var(--font-heading), serif",
             }}
           >
             Christian Holidays 2026
@@ -1221,14 +1228,15 @@ export default function HomePage() {
               key={h.name}
               className="holiday-row"
               style={{
-                backgroundColor: "#110e16",
-                border: "1px solid #2a2030",
+                backgroundColor: "#FFFFFF",
+                border: "1px solid #E8E6E1",
                 borderRadius: 8,
                 padding: "24px 28px",
                 display: "grid",
                 gridTemplateColumns: "200px 1fr",
                 gap: 24,
                 alignItems: "start",
+                boxShadow: "0 1px 3px rgba(0,0,0,0.04)",
               }}
             >
               <div>
@@ -1237,7 +1245,7 @@ export default function HomePage() {
                     color: "#CC2200",
                     fontSize: 17,
                     fontWeight: 700,
-                    fontFamily: "Georgia, serif",
+                    fontFamily: "var(--font-heading), serif",
                     marginBottom: 4,
                   }}
                 >
@@ -1245,7 +1253,7 @@ export default function HomePage() {
                 </div>
                 <div
                   style={{
-                    color: "#D4AF37",
+                    color: "#B8960C",
                     fontSize: 13,
                     fontWeight: 600,
                   }}
@@ -1256,7 +1264,7 @@ export default function HomePage() {
               <div>
                 <p
                   style={{
-                    color: "#F5F0E8",
+                    color: "#1A1A1A",
                     fontSize: 14,
                     marginBottom: 6,
                     fontWeight: 500,
@@ -1264,7 +1272,7 @@ export default function HomePage() {
                 >
                   {h.description}
                 </p>
-                <p style={{ color: "#a09888", fontSize: 14, lineHeight: 1.6 }}>
+                <p style={{ color: "#6A6A6A", fontSize: 14, lineHeight: 1.6 }}>
                   {h.observed}
                 </p>
               </div>
@@ -1286,8 +1294,8 @@ export default function HomePage() {
             style={{
               fontSize: "clamp(24px, 4vw, 36px)",
               fontWeight: 800,
-              color: "#F5F0E8",
-              fontFamily: "Georgia, serif",
+              color: "#FFFFFF",
+              fontFamily: "var(--font-heading), serif",
               marginBottom: 12,
             }}
           >
@@ -1307,10 +1315,10 @@ export default function HomePage() {
             <div
               style={{
                 backgroundColor: "rgba(255,255,255,0.15)",
-                border: "2px solid #F5F0E8",
+                border: "2px solid #FFFFFF",
                 borderRadius: 8,
                 padding: "24px 32px",
-                color: "#F5F0E8",
+                color: "#FFFFFF",
               }}
             >
               <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 10 }}>
@@ -1359,7 +1367,7 @@ export default function HomePage() {
                   borderRadius: 4,
                   border: "2px solid rgba(255,255,255,0.3)",
                   backgroundColor: "rgba(0,0,0,0.2)",
-                  color: "#F5F0E8",
+                  color: "#FFFFFF",
                   fontSize: 15,
                   outline: "none",
                 }}
@@ -1368,7 +1376,7 @@ export default function HomePage() {
                 type="submit"
                 disabled={submitting}
                 style={{
-                  backgroundColor: submitting ? "rgba(245,240,232,0.7)" : "#F5F0E8",
+                  backgroundColor: submitting ? "rgba(245,240,232,0.7)" : "#FFFFFF",
                   color: "#CC2200",
                   padding: "14px 28px",
                   borderRadius: 4,
@@ -1399,7 +1407,7 @@ export default function HomePage() {
       >
         <div
           style={{
-            color: "#D4AF37",
+            color: "#B8960C",
             fontSize: 11,
             fontWeight: 700,
             letterSpacing: "0.14em",
@@ -1413,21 +1421,21 @@ export default function HomePage() {
           style={{
             fontSize: "clamp(24px, 4vw, 38px)",
             fontWeight: 700,
-            color: "#F5F0E8",
-            fontFamily: "Georgia, serif",
+            color: "#1A1A1A",
+            fontFamily: "var(--font-heading), serif",
             marginBottom: 16,
           }}
         >
           Faith. History. Culture.
         </h2>
-        <p style={{ color: "#a09888", fontSize: 16, maxWidth: 480, margin: "0 auto 32px" }}>
+        <p style={{ color: "#6A6A6A", fontSize: 16, maxWidth: 480, margin: "0 auto 32px" }}>
           From the roots of American Christianity to what Easter actually means, we cover it all.
         </p>
         <a
           href="/blog"
           style={{
             backgroundColor: "#CC2200",
-            color: "#F5F0E8",
+            color: "#FFFFFF",
             padding: "14px 36px",
             borderRadius: 4,
             fontWeight: 700,

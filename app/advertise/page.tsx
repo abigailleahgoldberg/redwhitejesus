@@ -54,7 +54,7 @@ export default function AdvertisePage() {
       {/* Header */}
       <div
         style={{
-          background: "linear-gradient(160deg, #1a0a00 0%, #3a1500 100%)",
+          background: "#F8F7F5",
           padding: "64px 24px 56px",
           textAlign: "center",
           borderBottom: "2px solid #D4AF37",
@@ -62,7 +62,7 @@ export default function AdvertisePage() {
       >
         <div
           style={{
-            color: "#D4AF37",
+            color: "#B8960C",
             fontSize: 11,
             fontWeight: 700,
             letterSpacing: "0.14em",
@@ -76,8 +76,8 @@ export default function AdvertisePage() {
           style={{
             fontSize: "clamp(28px, 5vw, 52px)",
             fontWeight: 800,
-            color: "#F5F0E8",
-            fontFamily: "Georgia, serif",
+            color: "#1A1A1A",
+            fontFamily: "var(--font-heading), serif",
             marginBottom: 16,
           }}
         >
@@ -85,7 +85,7 @@ export default function AdvertisePage() {
         </h1>
         <p
           style={{
-            color: "#c8bfb0",
+            color: "#4A4A4A",
             fontSize: 17,
             maxWidth: 560,
             margin: "0 auto",
@@ -100,20 +100,21 @@ export default function AdvertisePage() {
         {/* Audience */}
         <div
           style={{
-            backgroundColor: "#110e16",
-            border: "1px solid #2a2030",
+            backgroundColor: "#FFFFFF",
+            border: "1px solid #E8E6E1",
             borderLeft: "4px solid #D4AF37",
             borderRadius: 8,
             padding: "32px 36px",
             marginBottom: 48,
+            boxShadow: "0 1px 4px rgba(0,0,0,0.06)",
           }}
         >
           <h2
             style={{
-              color: "#D4AF37",
+              color: "#B8960C",
               fontSize: 22,
               fontWeight: 700,
-              fontFamily: "Georgia, serif",
+              fontFamily: "var(--font-heading), serif",
               marginBottom: 16,
             }}
           >
@@ -142,7 +143,7 @@ export default function AdvertisePage() {
                 >
                   {item.stat}
                 </div>
-                <div style={{ color: "#a09888", fontSize: 14, lineHeight: 1.6 }}>
+                <div style={{ color: "#6A6A6A", fontSize: 14, lineHeight: 1.6 }}>
                   {item.desc}
                 </div>
               </div>
@@ -153,10 +154,10 @@ export default function AdvertisePage() {
         {/* Placements */}
         <h2
           style={{
-            color: "#F5F0E8",
+            color: "#1A1A1A",
             fontSize: "clamp(20px, 3vw, 28px)",
             fontWeight: 700,
-            fontFamily: "Georgia, serif",
+            fontFamily: "var(--font-heading), serif",
             marginBottom: 24,
           }}
         >
@@ -174,27 +175,28 @@ export default function AdvertisePage() {
             <div
               key={p.name}
               style={{
-                backgroundColor: "#110e16",
-                border: "1px solid #2a2030",
+                backgroundColor: "#FFFFFF",
+                border: "1px solid #E8E6E1",
                 borderRadius: 8,
                 padding: 24,
+                boxShadow: "0 1px 3px rgba(0,0,0,0.05)",
               }}
             >
               <h3
                 style={{
-                  color: "#F5F0E8",
+                  color: "#1A1A1A",
                   fontSize: 17,
                   fontWeight: 700,
-                  fontFamily: "Georgia, serif",
+                  fontFamily: "var(--font-heading), serif",
                   marginBottom: 8,
                 }}
               >
                 {p.name}
               </h3>
-              <p style={{ color: "#a09888", fontSize: 14, lineHeight: 1.6, marginBottom: 14 }}>
+              <p style={{ color: "#6A6A6A", fontSize: 14, lineHeight: 1.6, marginBottom: 14 }}>
                 {p.desc}
               </p>
-              <div style={{ color: "#D4AF37", fontSize: 14, fontWeight: 700 }}>
+              <div style={{ color: "#B8960C", fontSize: 14, fontWeight: 700 }}>
                 {p.price}
               </div>
             </div>
@@ -212,15 +214,17 @@ export default function AdvertisePage() {
         >
           <div
             style={{
-              backgroundColor: "#0a1a0a",
-              border: "1px solid #1a3a1a",
+              backgroundColor: "#FFFFFF",
+              border: "1px solid #E8E6E1",
+              borderTop: "3px solid #2a6e2a",
               borderRadius: 8,
               padding: 28,
+              boxShadow: "0 1px 3px rgba(0,0,0,0.05)",
             }}
           >
             <h3
               style={{
-                color: "#4a9a4a",
+                color: "#2a6e2a",
                 fontSize: 16,
                 fontWeight: 700,
                 marginBottom: 16,
@@ -235,16 +239,16 @@ export default function AdvertisePage() {
                 <li
                   key={item}
                   style={{
-                    color: "#c8bfb0",
+                    color: "#4A4A4A",
                     fontSize: 14,
                     padding: "6px 0",
-                    borderBottom: "1px solid #1a2a1a",
+                    borderBottom: "1px solid #E8E6E1",
                     display: "flex",
                     alignItems: "flex-start",
                     gap: 8,
                   }}
                 >
-                  <span style={{ color: "#4a9a4a", flexShrink: 0 }}>+</span>
+                  <span style={{ color: "#2a6e2a", flexShrink: 0 }}>+</span>
                   {item}
                 </li>
               ))}
@@ -253,10 +257,12 @@ export default function AdvertisePage() {
 
           <div
             style={{
-              backgroundColor: "#1a0a0a",
-              border: "1px solid #3a1a1a",
+              backgroundColor: "#FFFFFF",
+              border: "1px solid #E8E6E1",
+              borderTop: "3px solid #CC2200",
               borderRadius: 8,
               padding: 28,
+              boxShadow: "0 1px 3px rgba(0,0,0,0.05)",
             }}
           >
             <h3
@@ -276,10 +282,10 @@ export default function AdvertisePage() {
                 <li
                   key={item}
                   style={{
-                    color: "#c8bfb0",
+                    color: "#4A4A4A",
                     fontSize: 14,
                     padding: "6px 0",
-                    borderBottom: "1px solid #2a1a1a",
+                    borderBottom: "1px solid #E8E6E1",
                     display: "flex",
                     alignItems: "flex-start",
                     gap: 8,
@@ -296,32 +302,33 @@ export default function AdvertisePage() {
         {/* Contact CTA */}
         <div
           style={{
-            backgroundColor: "#1a0800",
+            backgroundColor: "#FFFFFF",
             border: "2px solid #D4AF37",
             borderRadius: 8,
             padding: "36px 40px",
             textAlign: "center",
+            boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
           }}
         >
           <h2
             style={{
-              color: "#D4AF37",
+              color: "#1A1A1A",
               fontSize: 26,
               fontWeight: 700,
-              fontFamily: "Georgia, serif",
+              fontFamily: "var(--font-heading), serif",
               marginBottom: 12,
             }}
           >
             Ready to partner with us?
           </h2>
-          <p style={{ color: "#c8bfb0", fontSize: 15, marginBottom: 24, lineHeight: 1.6 }}>
+          <p style={{ color: "#4A4A4A", fontSize: 15, marginBottom: 24, lineHeight: 1.6 }}>
             Send us a message. Tell us about your brand, your goals, and what you are hoping to accomplish. We will get back to you promptly.
           </p>
           <a
             href="mailto:advertise@redwhitejesus.com"
             style={{
               backgroundColor: "#D4AF37",
-              color: "#08060A",
+              color: "#1A1A1A",
               padding: "14px 40px",
               borderRadius: 4,
               fontWeight: 800,
@@ -334,7 +341,7 @@ export default function AdvertisePage() {
           >
             Get in Touch
           </a>
-          <p style={{ color: "#5a5060", fontSize: 12, marginTop: 16 }}>
+          <p style={{ color: "#8A8A8A", fontSize: 12, marginTop: 16 }}>
             advertise@redwhitejesus.com -- We review every inquiry personally.
           </p>
         </div>

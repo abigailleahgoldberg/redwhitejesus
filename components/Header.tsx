@@ -18,11 +18,12 @@ export default function Header() {
     <>
       <header
         style={{
-          backgroundColor: "#08060A",
-          borderBottom: "2px solid #CC2200",
+          backgroundColor: "#FFFFFF",
+          borderBottom: "1px solid #E8E6E1",
           position: "sticky",
           top: 0,
           zIndex: 200,
+          boxShadow: "0 1px 4px rgba(0,0,0,0.06)",
         }}
       >
         <nav
@@ -50,9 +51,9 @@ export default function Header() {
               style={{
                 fontSize: 22,
                 fontWeight: 700,
-                color: "#F5F0E8",
+                color: "#1A1A1A",
                 letterSpacing: "0.02em",
-                fontFamily: "Georgia, serif",
+                fontFamily: "var(--font-heading), serif",
               }}
             >
               Red White
@@ -63,7 +64,7 @@ export default function Header() {
                 fontWeight: 700,
                 color: "#CC2200",
                 letterSpacing: "0.02em",
-                fontFamily: "Georgia, serif",
+                fontFamily: "var(--font-heading), serif",
               }}
             >
               Jesus
@@ -77,11 +78,11 @@ export default function Header() {
                 key={link.label}
                 href={link.href}
                 style={{
-                  color: "#F5F0E8",
+                  color: "#1A1A1A",
                   fontSize: 15,
                   fontWeight: 500,
                   letterSpacing: "0.03em",
-                  opacity: 0.9,
+                  opacity: 0.85,
                   textDecoration: "none",
                   display: "flex",
                   alignItems: "center",
@@ -94,7 +95,7 @@ export default function Header() {
                     <span
                       style={{
                         backgroundColor: "#CC2200",
-                        color: "#F5F0E8",
+                        color: "#FFFFFF",
                         fontSize: 11,
                         fontWeight: 700,
                         width: 20,
@@ -122,7 +123,7 @@ export default function Header() {
               href="/cart"
               style={{
                 position: "relative",
-                color: "#F5F0E8",
+                color: "#1A1A1A",
                 textDecoration: "none",
               }}
             >
@@ -147,7 +148,7 @@ export default function Header() {
                     top: -6,
                     right: -6,
                     backgroundColor: "#CC2200",
-                    color: "#F5F0E8",
+                    color: "#FFFFFF",
                     fontSize: 10,
                     fontWeight: 700,
                     width: 18,
@@ -182,7 +183,7 @@ export default function Header() {
                   display: "block",
                   width: 24,
                   height: 2,
-                  backgroundColor: "#F5F0E8",
+                  backgroundColor: "#1A1A1A",
                   transition: "all 0.2s",
                   transform: menuOpen ? "rotate(45deg) translateY(7px)" : "none",
                 }}
@@ -192,7 +193,7 @@ export default function Header() {
                   display: "block",
                   width: 24,
                   height: 2,
-                  backgroundColor: "#F5F0E8",
+                  backgroundColor: "#1A1A1A",
                   transition: "all 0.2s",
                   opacity: menuOpen ? 0 : 1,
                 }}
@@ -202,7 +203,7 @@ export default function Header() {
                   display: "block",
                   width: 24,
                   height: 2,
-                  backgroundColor: "#F5F0E8",
+                  backgroundColor: "#1A1A1A",
                   transition: "all 0.2s",
                   transform: menuOpen ? "rotate(-45deg) translateY(-7px)" : "none",
                 }}
@@ -219,7 +220,7 @@ export default function Header() {
             position: "fixed",
             inset: 0,
             zIndex: 190,
-            backgroundColor: "#08060A",
+            backgroundColor: "#FFFFFF",
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
@@ -234,10 +235,10 @@ export default function Header() {
               key={link.label}
               href={link.href}
               style={{
-                color: "#F5F0E8",
+                color: "#1A1A1A",
                 fontSize: 28,
                 fontWeight: 700,
-                fontFamily: "Georgia, serif",
+                fontFamily: "var(--font-heading), serif",
                 textDecoration: "none",
                 letterSpacing: "0.02em",
               }}
@@ -254,7 +255,7 @@ export default function Header() {
             style={{
               marginTop: 16,
               backgroundColor: "#CC2200",
-              color: "#F5F0E8",
+              color: "#FFFFFF",
               padding: "14px 40px",
               borderRadius: 4,
               fontWeight: 700,
@@ -279,8 +280,9 @@ export default function Header() {
           left: 0,
           right: 0,
           zIndex: 150,
-          backgroundColor: "#08060A",
-          borderTop: "2px solid #CC2200",
+          backgroundColor: "#FFFFFF",
+          borderTop: "1px solid #E8E6E1",
+          boxShadow: "0 -2px 12px rgba(0,0,0,0.08)",
           padding: "12px 16px",
           gap: 12,
         }}
@@ -290,7 +292,7 @@ export default function Header() {
           style={{
             flex: 1,
             backgroundColor: "#CC2200",
-            color: "#F5F0E8",
+            color: "#FFFFFF",
             padding: "12px 16px",
             borderRadius: 4,
             fontWeight: 700,
@@ -308,7 +310,7 @@ export default function Header() {
           style={{
             flex: 1,
             border: "2px solid #D4AF37",
-            color: "#D4AF37",
+            color: "#B8960C",
             padding: "12px 16px",
             borderRadius: 4,
             fontWeight: 700,

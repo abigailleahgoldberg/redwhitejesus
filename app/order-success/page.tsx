@@ -29,7 +29,7 @@ export default function OrderSuccessPage() {
         style={{
           width: 80,
           height: 80,
-          backgroundColor: "rgba(212,175,55,0.15)",
+          backgroundColor: "rgba(212,175,55,0.10)",
           border: "2px solid #D4AF37",
           borderRadius: "50%",
           display: "flex",
@@ -52,7 +52,7 @@ export default function OrderSuccessPage() {
 
       <div
         style={{
-          color: "#D4AF37",
+          color: "#B8960C",
           fontSize: 11,
           fontWeight: 700,
           letterSpacing: "0.14em",
@@ -67,8 +67,8 @@ export default function OrderSuccessPage() {
         style={{
           fontSize: "clamp(28px, 5vw, 48px)",
           fontWeight: 800,
-          color: "#F5F0E8",
-          fontFamily: "Georgia, serif",
+          color: "#1A1A1A",
+          fontFamily: "var(--font-heading), serif",
           marginBottom: 16,
           lineHeight: 1.1,
         }}
@@ -78,7 +78,7 @@ export default function OrderSuccessPage() {
 
       <p
         style={{
-          color: "#a09888",
+          color: "#6A6A6A",
           fontSize: 17,
           lineHeight: 1.7,
           marginBottom: 12,
@@ -91,7 +91,7 @@ export default function OrderSuccessPage() {
 
       <p
         style={{
-          color: "#a09888",
+          color: "#8A8A8A",
           fontSize: 15,
           lineHeight: 1.7,
           marginBottom: 40,
@@ -106,7 +106,7 @@ export default function OrderSuccessPage() {
           href="/"
           style={{
             backgroundColor: "#CC2200",
-            color: "#F5F0E8",
+            color: "#FFFFFF",
             padding: "14px 32px",
             borderRadius: 4,
             fontWeight: 700,
@@ -122,7 +122,7 @@ export default function OrderSuccessPage() {
           href="/blog"
           style={{
             border: "2px solid #D4AF37",
-            color: "#D4AF37",
+            color: "#B8960C",
             padding: "14px 32px",
             borderRadius: 4,
             fontWeight: 700,

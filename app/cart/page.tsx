@@ -51,7 +51,7 @@ export default function CartPage() {
       <div style={{ marginBottom: 40 }}>
         <div
           style={{
-            color: "#D4AF37",
+            color: "#B8960C",
             fontSize: 11,
             fontWeight: 700,
             letterSpacing: "0.14em",
@@ -65,8 +65,8 @@ export default function CartPage() {
           style={{
             fontSize: "clamp(28px, 4vw, 42px)",
             fontWeight: 700,
-            color: "#F5F0E8",
-            fontFamily: "Georgia, serif",
+            color: "#1A1A1A",
+            fontFamily: "var(--font-heading), serif",
           }}
         >
           Your Cart
@@ -78,8 +78,8 @@ export default function CartPage() {
           style={{
             textAlign: "center",
             padding: "64px 24px",
-            backgroundColor: "#110e16",
-            border: "1px solid #2a2030",
+            backgroundColor: "#F8F7F5",
+            border: "1px solid #E8E6E1",
             borderRadius: 8,
           }}
         >
@@ -91,7 +91,7 @@ export default function CartPage() {
               opacity: 0.4,
             }}
           >
-            <svg viewBox="0 0 24 24" fill="none" stroke="#F5F0E8" strokeWidth="1.5">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#1A1A1A" strokeWidth="1.5">
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -101,23 +101,23 @@ export default function CartPage() {
           </div>
           <h2
             style={{
-              color: "#F5F0E8",
+              color: "#1A1A1A",
               fontSize: 22,
               fontWeight: 600,
               marginBottom: 12,
-              fontFamily: "Georgia, serif",
+              fontFamily: "var(--font-heading), serif",
             }}
           >
             Your cart is empty
           </h2>
-          <p style={{ color: "#a09888", fontSize: 15, marginBottom: 28 }}>
+          <p style={{ color: "#6A6A6A", fontSize: 15, marginBottom: 28 }}>
             Add some blessed gear and come back.
           </p>
           <a
             href="/"
             style={{
               backgroundColor: "#CC2200",
-              color: "#F5F0E8",
+              color: "#FFFFFF",
               padding: "12px 28px",
               borderRadius: 4,
               fontWeight: 700,
@@ -145,14 +145,15 @@ export default function CartPage() {
               <div
                 key={`${item.id}-${item.variantId}`}
                 style={{
-                  backgroundColor: "#110e16",
-                  border: "1px solid #2a2030",
+                  backgroundColor: "#FFFFFF",
+                  border: "1px solid #E8E6E1",
                   borderRadius: 8,
                   padding: "20px 24px",
                   display: "flex",
                   alignItems: "center",
                   gap: 20,
                   flexWrap: "wrap",
+                  boxShadow: "0 1px 4px rgba(0,0,0,0.05)",
                 }}
               >
                 {/* Icon placeholder */}
@@ -160,7 +161,7 @@ export default function CartPage() {
                   style={{
                     width: 72,
                     height: 72,
-                    backgroundColor: "#1f1828",
+                    backgroundColor: "#F8F7F5",
                     borderRadius: 6,
                     display: "flex",
                     alignItems: "center",
@@ -188,7 +189,7 @@ export default function CartPage() {
                 <div style={{ flex: 1, minWidth: 160 }}>
                   <h3
                     style={{
-                      color: "#F5F0E8",
+                      color: "#1A1A1A",
                       fontSize: 16,
                       fontWeight: 600,
                       marginBottom: 4,
@@ -197,7 +198,7 @@ export default function CartPage() {
                     {item.name}
                   </h3>
                   <div
-                    style={{ color: "#D4AF37", fontSize: 15, fontWeight: 700 }}
+                    style={{ color: "#B8960C", fontSize: 15, fontWeight: 700 }}
                   >
                     ${item.price.toFixed(2)} each
                   </div>
@@ -223,9 +224,9 @@ export default function CartPage() {
                       width: 32,
                       height: 32,
                       borderRadius: 4,
-                      border: "1px solid #2a2030",
-                      backgroundColor: "#15111c",
-                      color: "#F5F0E8",
+                      border: "1px solid #E8E6E1",
+                      backgroundColor: "#F8F7F5",
+                      color: "#1A1A1A",
                       fontSize: 18,
                       display: "flex",
                       alignItems: "center",
@@ -236,7 +237,7 @@ export default function CartPage() {
                     -
                   </button>
                   <span
-                    style={{ color: "#F5F0E8", fontSize: 16, fontWeight: 600, minWidth: 24, textAlign: "center" }}
+                    style={{ color: "#1A1A1A", fontSize: 16, fontWeight: 600, minWidth: 24, textAlign: "center" }}
                   >
                     {item.quantity}
                   </span>
@@ -252,9 +253,9 @@ export default function CartPage() {
                       width: 32,
                       height: 32,
                       borderRadius: 4,
-                      border: "1px solid #2a2030",
-                      backgroundColor: "#15111c",
-                      color: "#F5F0E8",
+                      border: "1px solid #E8E6E1",
+                      backgroundColor: "#F8F7F5",
+                      color: "#1A1A1A",
                       fontSize: 18,
                       display: "flex",
                       alignItems: "center",
@@ -269,7 +270,7 @@ export default function CartPage() {
                 {/* Line total */}
                 <div
                   style={{
-                    color: "#F5F0E8",
+                    color: "#1A1A1A",
                     fontSize: 16,
                     fontWeight: 700,
                     minWidth: 64,
@@ -285,7 +286,7 @@ export default function CartPage() {
                   style={{
                     background: "none",
                     border: "none",
-                    color: "#5a5060",
+                    color: "#8A8A8A",
                     cursor: "pointer",
                     padding: 4,
                   }}
@@ -313,19 +314,20 @@ export default function CartPage() {
           {/* Order summary */}
           <div
             style={{
-              backgroundColor: "#110e16",
-              border: "1px solid #2a2030",
+              backgroundColor: "#FFFFFF",
+              border: "1px solid #E8E6E1",
               borderRadius: 8,
               padding: 28,
+              boxShadow: "0 1px 4px rgba(0,0,0,0.05)",
             }}
           >
             <h2
               style={{
-                color: "#F5F0E8",
+                color: "#1A1A1A",
                 fontSize: 20,
                 fontWeight: 700,
                 marginBottom: 20,
-                fontFamily: "Georgia, serif",
+                fontFamily: "var(--font-heading), serif",
               }}
             >
               Order Summary
@@ -345,7 +347,7 @@ export default function CartPage() {
                   style={{
                     display: "flex",
                     justifyContent: "space-between",
-                    color: "#a09888",
+                    color: "#6A6A6A",
                     fontSize: 14,
                   }}
                 >
@@ -359,7 +361,7 @@ export default function CartPage() {
 
             <div
               style={{
-                borderTop: "1px solid #2a2030",
+                borderTop: "1px solid #E8E6E1",
                 paddingTop: 16,
                 marginBottom: 24,
                 display: "flex",
@@ -369,7 +371,7 @@ export default function CartPage() {
             >
               <span
                 style={{
-                  color: "#F5F0E8",
+                  color: "#1A1A1A",
                   fontSize: 18,
                   fontWeight: 700,
                 }}
@@ -378,10 +380,10 @@ export default function CartPage() {
               </span>
               <span
                 style={{
-                  color: "#D4AF37",
+                  color: "#B8960C",
                   fontSize: 24,
                   fontWeight: 800,
-                  fontFamily: "Georgia, serif",
+                  fontFamily: "var(--font-heading), serif",
                 }}
               >
                 ${total.toFixed(2)}
@@ -391,11 +393,11 @@ export default function CartPage() {
             {error && (
               <div
                 style={{
-                  backgroundColor: "rgba(204,34,0,0.15)",
+                  backgroundColor: "rgba(204,34,0,0.06)",
                   border: "1px solid #CC2200",
                   borderRadius: 4,
                   padding: "12px 16px",
-                  color: "#FF6644",
+                  color: "#CC2200",
                   fontSize: 14,
                   marginBottom: 16,
                 }}
@@ -410,7 +412,7 @@ export default function CartPage() {
               style={{
                 width: "100%",
                 backgroundColor: loading ? "#882200" : "#CC2200",
-                color: "#F5F0E8",
+                color: "#FFFFFF",
                 padding: "16px 24px",
                 borderRadius: 4,
                 border: "none",
@@ -432,7 +434,7 @@ export default function CartPage() {
                 justifyContent: "center",
                 gap: 8,
                 marginTop: 16,
-                color: "#5a5060",
+                color: "#8A8A8A",
                 fontSize: 13,
               }}
             >
@@ -455,7 +457,7 @@ export default function CartPage() {
               style={{
                 background: "none",
                 border: "none",
-                color: "#5a5060",
+                color: "#8A8A8A",
                 fontSize: 13,
                 cursor: "pointer",
                 marginTop: 12,

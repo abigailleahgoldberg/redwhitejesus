@@ -50,12 +50,12 @@ const PRODUCTS = [
 ];
 
 const OCCASIONS = [
-  { name: "Christmas", emoji: "🎄", href: "https://store.redwhitejesus.com/collections/christmas?tag=redwhitejesus-20" },
-  { name: "Easter", emoji: "✝️", href: "https://store.redwhitejesus.com/collections/easter?tag=redwhitejesus-20" },
-  { name: "Baptism", emoji: "💧", href: "https://store.redwhitejesus.com/collections/baptism?tag=redwhitejesus-20" },
-  { name: "Graduation", emoji: "🎓", href: "https://store.redwhitejesus.com/collections/graduation?tag=redwhitejesus-20" },
-  { name: "Wedding", emoji: "💍", href: "https://store.redwhitejesus.com/collections/wedding?tag=redwhitejesus-20" },
-  { name: "Just Because", emoji: "🙏", href: "https://store.redwhitejesus.com/collections/just-because?tag=redwhitejesus-20" },
+  { name: "Christmas", href: "https://store.redwhitejesus.com/collections/christmas?tag=redwhitejesus-20" },
+  { name: "Easter", href: "https://store.redwhitejesus.com/collections/easter?tag=redwhitejesus-20" },
+  { name: "Baptism", href: "https://store.redwhitejesus.com/collections/baptism?tag=redwhitejesus-20" },
+  { name: "Graduation", href: "https://store.redwhitejesus.com/collections/graduation?tag=redwhitejesus-20" },
+  { name: "Wedding", href: "https://store.redwhitejesus.com/collections/wedding?tag=redwhitejesus-20" },
+  { name: "Just Because", href: "https://store.redwhitejesus.com/collections/just-because?tag=redwhitejesus-20" },
 ];
 
 export default function ShopPage() {
@@ -64,15 +64,15 @@ export default function ShopPage() {
       {/* Header */}
       <div
         style={{
-          background: "linear-gradient(160deg, #0f0c14 0%, #1B3A6B22 100%)",
+          background: "#F8F7F5",
           padding: "64px 24px 56px",
           textAlign: "center",
-          borderBottom: "1px solid #2a2030",
+          borderBottom: "1px solid #E8E6E1",
         }}
       >
         <div
           style={{
-            color: "#D4AF37",
+            color: "#B8960C",
             fontSize: 11,
             fontWeight: 700,
             letterSpacing: "0.14em",
@@ -86,8 +86,8 @@ export default function ShopPage() {
           style={{
             fontSize: "clamp(28px, 5vw, 52px)",
             fontWeight: 800,
-            color: "#F5F0E8",
-            fontFamily: "Georgia, serif",
+            color: "#1A1A1A",
+            fontFamily: "var(--font-heading), serif",
             marginBottom: 16,
           }}
         >
@@ -95,7 +95,7 @@ export default function ShopPage() {
         </h1>
         <p
           style={{
-            color: "#a09888",
+            color: "#6A6A6A",
             fontSize: 17,
             maxWidth: 480,
             margin: "0 auto 28px",
@@ -108,7 +108,7 @@ export default function ShopPage() {
           href="https://store.redwhitejesus.com?tag=redwhitejesus-20"
           style={{
             backgroundColor: "#CC2200",
-            color: "#F5F0E8",
+            color: "#FFFFFF",
             padding: "14px 36px",
             borderRadius: 4,
             fontWeight: 700,
@@ -130,8 +130,8 @@ export default function ShopPage() {
             style={{
               fontSize: "clamp(20px, 3vw, 30px)",
               fontWeight: 700,
-              color: "#F5F0E8",
-              fontFamily: "Georgia, serif",
+              color: "#1A1A1A",
+              fontFamily: "var(--font-heading), serif",
             }}
           >
             Shop by Occasion
@@ -154,18 +154,18 @@ export default function ShopPage() {
                 flexDirection: "column",
                 alignItems: "center",
                 gap: 8,
-                backgroundColor: "#110e16",
-                border: "1px solid #2a2030",
+                backgroundColor: "#FFFFFF",
+                border: "1px solid #E8E6E1",
                 borderRadius: 8,
                 padding: "18px 24px",
-                color: "#F5F0E8",
+                color: "#1A1A1A",
                 fontSize: 13,
                 fontWeight: 600,
                 minWidth: 110,
                 textDecoration: "none",
+                boxShadow: "0 1px 3px rgba(0,0,0,0.05)",
               }}
             >
-              <span style={{ fontSize: 26 }}>{occ.emoji}</span>
               <span>{occ.name}</span>
             </a>
           ))}
@@ -179,8 +179,8 @@ export default function ShopPage() {
             style={{
               fontSize: "clamp(20px, 3vw, 30px)",
               fontWeight: 700,
-              color: "#F5F0E8",
-              fontFamily: "Georgia, serif",
+              color: "#1A1A1A",
+              fontFamily: "var(--font-heading), serif",
             }}
           >
             Featured Products
@@ -198,13 +198,14 @@ export default function ShopPage() {
               key={p.name}
               href={p.href}
               style={{
-                backgroundColor: "#110e16",
-                border: "1px solid #2a2030",
+                backgroundColor: "#FFFFFF",
+                border: "1px solid #E8E6E1",
                 borderRadius: 8,
                 padding: 24,
                 display: "block",
                 textDecoration: "none",
                 position: "relative",
+                boxShadow: "0 1px 4px rgba(0,0,0,0.06)",
               }}
             >
               {p.tag && (
@@ -214,7 +215,7 @@ export default function ShopPage() {
                     top: 16,
                     right: 16,
                     backgroundColor: "#CC2200",
-                    color: "#F5F0E8",
+                    color: "#FFFFFF",
                     fontSize: 10,
                     fontWeight: 700,
                     letterSpacing: "0.08em",
@@ -228,7 +229,7 @@ export default function ShopPage() {
               )}
               <div
                 style={{
-                  backgroundColor: "#1f1828",
+                  backgroundColor: "#F8F7F5",
                   borderRadius: 6,
                   height: 160,
                   marginBottom: 18,
@@ -237,22 +238,24 @@ export default function ShopPage() {
                   justifyContent: "center",
                 }}
               >
-                <span style={{ fontSize: 44 }}>✝️</span>
+                <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#CC2200" strokeWidth="1.5">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v18M3 12h18" />
+                </svg>
               </div>
               <h3
                 style={{
-                  color: "#F5F0E8",
+                  color: "#1A1A1A",
                   fontSize: 17,
                   fontWeight: 700,
                   marginBottom: 8,
-                  fontFamily: "Georgia, serif",
+                  fontFamily: "var(--font-heading), serif",
                 }}
               >
                 {p.name}
               </h3>
               <p
                 style={{
-                  color: "#a09888",
+                  color: "#6A6A6A",
                   fontSize: 13,
                   lineHeight: 1.6,
                   marginBottom: 16,
@@ -267,13 +270,13 @@ export default function ShopPage() {
                   justifyContent: "space-between",
                 }}
               >
-                <span style={{ color: "#D4AF37", fontSize: 20, fontWeight: 700 }}>
+                <span style={{ color: "#B8960C", fontSize: 20, fontWeight: 700 }}>
                   {p.price}
                 </span>
                 <span
                   style={{
                     backgroundColor: "#CC2200",
-                    color: "#F5F0E8",
+                    color: "#FFFFFF",
                     padding: "8px 16px",
                     borderRadius: 4,
                     fontSize: 12,
@@ -293,30 +296,30 @@ export default function ShopPage() {
             textAlign: "center",
             marginTop: 40,
             padding: "32px",
-            backgroundColor: "#110e16",
-            border: "1px solid #2a2030",
+            backgroundColor: "#F8F7F5",
+            border: "1px solid #E8E6E1",
             borderRadius: 8,
           }}
         >
           <p
             style={{
-              color: "#F5F0E8",
+              color: "#1A1A1A",
               fontSize: 18,
               fontWeight: 600,
               marginBottom: 8,
-              fontFamily: "Georgia, serif",
+              fontFamily: "var(--font-heading), serif",
             }}
           >
             More gear where that came from.
           </p>
-          <p style={{ color: "#a09888", fontSize: 14, marginBottom: 20 }}>
+          <p style={{ color: "#6A6A6A", fontSize: 14, marginBottom: 20 }}>
             The full store has everything from tees to mugs to gifts for every occasion.
           </p>
           <a
             href="https://store.redwhitejesus.com?tag=redwhitejesus-20"
             style={{
               backgroundColor: "#CC2200",
-              color: "#F5F0E8",
+              color: "#FFFFFF",
               padding: "14px 36px",
               borderRadius: 4,
               fontWeight: 700,

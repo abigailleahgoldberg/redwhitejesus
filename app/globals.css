@@ -1,9 +1,14 @@
 :root {
-  --dark: #08060A;
+  --bg: #FFFFFF;
+  --bg-subtle: #F8F7F5;
+  --text-primary: #1A1A1A;
+  --text-secondary: #4A4A4A;
+  --text-muted: #8A8A8A;
   --red: #CC2200;
   --gold: #D4AF37;
-  --cream: #F5F0E8;
   --blue: #1B3A6B;
+  --cream: #F5F0E8;
+  --border: #E8E6E1;
 }
 
 *, *::before, *::after {
@@ -18,9 +23,9 @@ html {
 }
 
 body {
-  background-color: #08060A;
-  color: #F5F0E8;
-  font-family: Georgia, 'Times New Roman', serif;
+  background-color: #FFFFFF;
+  color: #1A1A1A;
+  font-family: var(--font-body), sans-serif;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }

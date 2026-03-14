@@ -2,9 +2,9 @@ import { posts } from "./data";
 
 const CATEGORY_COLORS: Record<string, string> = {
   Culture: "#1B3A6B",
-  History: "#4a3000",
+  History: "#7A5200",
   Religion: "#CC2200",
-  Community: "#2a4a2a",
+  Community: "#2a6e2a",
 };
 
 export const metadata = {
@@ -23,7 +23,7 @@ export default function BlogPage() {
       <div style={{ textAlign: "center", marginBottom: 56 }}>
         <div
           style={{
-            color: "#D4AF37",
+            color: "#B8960C",
             fontSize: 11,
             fontWeight: 700,
             letterSpacing: "0.14em",
@@ -37,14 +37,14 @@ export default function BlogPage() {
           style={{
             fontSize: "clamp(28px, 5vw, 52px)",
             fontWeight: 800,
-            color: "#F5F0E8",
-            fontFamily: "Georgia, serif",
+            color: "#1A1A1A",
+            fontFamily: "var(--font-heading), serif",
             marginBottom: 16,
           }}
         >
           Faith. History. Culture.
         </h1>
-        <p style={{ color: "#a09888", fontSize: 17, maxWidth: 520, margin: "0 auto" }}>
+        <p style={{ color: "#6A6A6A", fontSize: 17, maxWidth: 520, margin: "0 auto" }}>
           Everything you wanted to know about Christian-American life, history, and tradition.
         </p>
       </div>
@@ -61,20 +61,21 @@ export default function BlogPage() {
             key={post.slug}
             href={`/blog/${post.slug}`}
             style={{
-              backgroundColor: "#110e16",
-              border: "1px solid #2a2030",
+              backgroundColor: "#FFFFFF",
+              border: "1px solid #E8E6E1",
               borderRadius: 8,
               padding: 28,
               display: "block",
               textDecoration: "none",
-              transition: "border-color 0.2s",
+              transition: "border-color 0.2s, box-shadow 0.2s",
+              boxShadow: "0 1px 4px rgba(0,0,0,0.06)",
             }}
           >
             <div
               style={{
                 display: "inline-block",
-                backgroundColor: CATEGORY_COLORS[post.category] || "#2a2030",
-                color: "#F5F0E8",
+                backgroundColor: CATEGORY_COLORS[post.category] || "#6A6A6A",
+                color: "#FFFFFF",
                 fontSize: 11,
                 fontWeight: 700,
                 letterSpacing: "0.1em",
@@ -88,19 +89,19 @@ export default function BlogPage() {
             </div>
             <h2
               style={{
-                color: "#F5F0E8",
+                color: "#1A1A1A",
                 fontSize: 19,
                 fontWeight: 700,
                 lineHeight: 1.3,
                 marginBottom: 10,
-                fontFamily: "Georgia, serif",
+                fontFamily: "var(--font-heading), serif",
               }}
             >
               {post.title}
             </h2>
             <p
               style={{
-                color: "#a09888",
+                color: "#6A6A6A",
                 fontSize: 14,
                 lineHeight: 1.7,
                 marginBottom: 16,
@@ -115,7 +116,7 @@ export default function BlogPage() {
                 justifyContent: "space-between",
               }}
             >
-              <span style={{ color: "#5a5060", fontSize: 12 }}>
+              <span style={{ color: "#8A8A8A", fontSize: 12 }}>
                 {new Date(post.date).toLocaleDateString("en-US", {
                   year: "numeric",
                   month: "long",

@@ -27,12 +27,12 @@ function renderContent(content: string) {
         <h3
           key={i}
           style={{
-            color: "#D4AF37",
+            color: "#B8960C",
             fontSize: 18,
             fontWeight: 700,
             marginTop: 32,
             marginBottom: 12,
-            fontFamily: "Georgia, serif",
+            fontFamily: "var(--font-heading), serif",
           }}
         >
           {para.replace(/\*\*/g, "")}
@@ -45,7 +45,7 @@ function renderContent(content: string) {
       <p
         key={i}
         style={{
-          color: "#c8bfb0",
+          color: "#4A4A4A",
           fontSize: 17,
           lineHeight: 1.8,
           marginBottom: 20,
@@ -54,7 +54,7 @@ function renderContent(content: string) {
         {parts.map((part, j) => {
           if (part.startsWith("**") && part.endsWith("**")) {
             return (
-              <strong key={j} style={{ color: "#F5F0E8", fontWeight: 700 }}>
+              <strong key={j} style={{ color: "#1A1A1A", fontWeight: 700 }}>
                 {part.replace(/\*\*/g, "")}
               </strong>
             );
@@ -68,9 +68,9 @@ function renderContent(content: string) {
 
 const CATEGORY_COLORS: Record<string, string> = {
   Culture: "#1B3A6B",
-  History: "#4a3000",
+  History: "#7A5200",
   Religion: "#CC2200",
-  Community: "#2a4a2a",
+  Community: "#2a6e2a",
 };
 
 export default async function BlogPostPage({
@@ -89,8 +89,8 @@ export default async function BlogPostPage({
       {/* Hero */}
       <div
         style={{
-          backgroundColor: "#0D0A10",
-          borderBottom: "1px solid #2a2030",
+          backgroundColor: "#F8F7F5",
+          borderBottom: "1px solid #E8E6E1",
           padding: "56px 24px 48px",
         }}
       >
@@ -98,7 +98,7 @@ export default async function BlogPostPage({
           <a
             href="/blog"
             style={{
-              color: "#a09888",
+              color: "#8A8A8A",
               fontSize: 13,
               display: "inline-flex",
               alignItems: "center",
@@ -112,8 +112,8 @@ export default async function BlogPostPage({
           <div
             style={{
               display: "inline-block",
-              backgroundColor: CATEGORY_COLORS[post.category] || "#2a2030",
-              color: "#F5F0E8",
+              backgroundColor: CATEGORY_COLORS[post.category] || "#6A6A6A",
+              color: "#FFFFFF",
               fontSize: 11,
               fontWeight: 700,
               letterSpacing: "0.1em",
@@ -129,9 +129,9 @@ export default async function BlogPostPage({
             style={{
               fontSize: "clamp(26px, 4.5vw, 46px)",
               fontWeight: 800,
-              color: "#F5F0E8",
+              color: "#1A1A1A",
               lineHeight: 1.2,
-              fontFamily: "Georgia, serif",
+              fontFamily: "var(--font-heading), serif",
               marginBottom: 16,
             }}
           >
@@ -139,7 +139,7 @@ export default async function BlogPostPage({
           </h1>
           <p
             style={{
-              color: "#a09888",
+              color: "#6A6A6A",
               fontSize: 17,
               lineHeight: 1.6,
               marginBottom: 20,
@@ -147,7 +147,7 @@ export default async function BlogPostPage({
           >
             {post.description}
           </p>
-          <span style={{ color: "#5a5060", fontSize: 13 }}>
+          <span style={{ color: "#8A8A8A", fontSize: 13 }}>
             {new Date(post.date).toLocaleDateString("en-US", {
               year: "numeric",
               month: "long",
@@ -170,8 +170,8 @@ export default async function BlogPostPage({
         {/* Shop CTA */}
         <div
           style={{
-            backgroundColor: "#110e16",
-            border: "1px solid #2a2030",
+            backgroundColor: "#FFFFFF",
+            border: "1px solid #E8E6E1",
             borderLeft: "4px solid #CC2200",
             borderRadius: 8,
             padding: 28,
@@ -182,12 +182,13 @@ export default async function BlogPostPage({
             justifyContent: "space-between",
             flexWrap: "wrap",
             gap: 20,
+            boxShadow: "0 1px 4px rgba(0,0,0,0.05)",
           }}
         >
           <div>
             <div
               style={{
-                color: "#F5F0E8",
+                color: "#1A1A1A",
                 fontWeight: 700,
                 fontSize: 17,
                 marginBottom: 4,
@@ -195,7 +196,7 @@ export default async function BlogPostPage({
             >
               Blessed and well-dressed.
             </div>
-            <p style={{ color: "#a09888", fontSize: 14 }}>
+            <p style={{ color: "#6A6A6A", fontSize: 14 }}>
               RedWhiteJesus gear for the Christian American with taste.
             </p>
           </div>
@@ -203,7 +204,7 @@ export default async function BlogPostPage({
             href="https://store.redwhitejesus.com?tag=redwhitejesus-20"
             style={{
               backgroundColor: "#CC2200",
-              color: "#F5F0E8",
+              color: "#FFFFFF",
               padding: "12px 24px",
               borderRadius: 4,
               fontWeight: 700,
@@ -222,7 +223,7 @@ export default async function BlogPostPage({
           <div>
             <div
               style={{
-                color: "#D4AF37",
+                color: "#B8960C",
                 fontSize: 11,
                 fontWeight: 700,
                 letterSpacing: "0.14em",
@@ -238,8 +239,8 @@ export default async function BlogPostPage({
                   key={p.slug}
                   href={`/blog/${p.slug}`}
                   style={{
-                    backgroundColor: "#110e16",
-                    border: "1px solid #2a2030",
+                    backgroundColor: "#FFFFFF",
+                    border: "1px solid #E8E6E1",
                     borderRadius: 8,
                     padding: "20px 24px",
                     textDecoration: "none",
@@ -247,12 +248,13 @@ export default async function BlogPostPage({
                     justifyContent: "space-between",
                     alignItems: "center",
                     gap: 16,
+                    boxShadow: "0 1px 3px rgba(0,0,0,0.05)",
                   }}
                 >
                   <div>
                     <div
                       style={{
-                        color: "#F5F0E8",
+                        color: "#1A1A1A",
                         fontWeight: 600,
                         fontSize: 15,
                         marginBottom: 4,
@@ -260,7 +262,7 @@ export default async function BlogPostPage({
                     >
                       {p.title}
                     </div>
-                    <div style={{ color: "#a09888", fontSize: 13 }}>
+                    <div style={{ color: "#8A8A8A", fontSize: 13 }}>
                       {p.category}
                     </div>
                   </div>
