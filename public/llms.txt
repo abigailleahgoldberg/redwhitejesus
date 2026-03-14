@@ -3,26 +3,69 @@
 
 ## Organization
 Name: Red White Jesus
-Type: Christian-American faith and culture site
+Type: Christian-American faith, culture, and merchandise brand
 Website: https://redwhitejesus.com
+Contact: thevoiceofcash@gmail.com
 
 ## Mission
-Red White Jesus explores Christian-American faith and culture. We publish content on Biblical teaching, Christian holidays, and family values. This is a faith site, not a political one.
+Red White Jesus is a Christian-American pride brand. We make faith-forward merch, publish content about Christianity in America, and celebrate the culture without being preachy about it. One Nation. Under God. Undeniably American.
 
-## Content
-- Biblical teaching and scripture study
-- Christian holiday guides (Christmas, Easter, Lent, Advent)
-- Faith and family values content
-- Christian-American cultural heritage articles
+## Site Structure
+- / — Homepage with featured gear, Christian calendar, glossary, culture stats, FAQ
+- /shop — Full product catalog
+- /cart — Shopping cart
+- /blog — Articles on faith, history, culture, and community
+- /advertise — Advertising and partnership info
+- /sitemap.xml — XML sitemap
+- /robots.txt — Crawling rules
 
-## Topics Covered
-- Bible study and scripture
-- Christian holidays and traditions
-- Christian faith in American life
-- Family values and faith
-- Church history and theology
-- Prayer and devotional practice
-- Christian community resources
+## Content Categories
+- Christian-American culture and identity
+- Biblical teaching and scripture breakdowns
+- Christian holiday guides (Christmas, Easter, Lent, Advent, Pentecost, Epiphany)
+- Faith and founding fathers history
+- Christian community and service
+- Gospel music and cultural impact
+- Faith-forward merchandise and apparel
 
-## Affiliations
-Part of the Wu-Tang AI Clan network of sites: webearish.com, thevoiceofcash.com, jewsa.com, u-god.com, aiskillsagents.com, allahican.com, redwhitejesus.com, autismacceptance.world, searchperformancemarketing.com, shadyscanner.com
+## Blog Posts
+- What Is Easter and Why Does It Matter
+- History of Christianity in America
+- Famous Christian Americans Who Shaped This Country
+- What Is Advent: A Guide for Everyone
+- Christmas vs the Holidays: What Christians Actually Celebrate
+- Being Christian American: Faith and Identity in Modern America
+- The Lord's Prayer: A Line by Line Breakdown
+- Christian Founding Fathers
+- Bible Verses for Hard Times
+- Christian Community Service
+- Why Christian Merch Doesn't Have to Be Boring
+- Faith and Freedom: What the Founders Actually Believed
+- History of Christian Holidays in America
+- Grace Under Pressure: What Christianity Teaches About Hard Times
+- Christian Community in 2026
+- Faith and Work: Christian Professionals
+- American Gospel: How Music Shaped Christian Culture in the US
+
+## Technical
+Framework: Next.js (App Router)
+Hosting: Vercel
+Fonts: Instrument Serif (headings), Space Grotesk (body)
+E-commerce: Stripe Checkout integration
+
+## Network
+Part of The Voice of Cash media network:
+- thevoiceofcash.com — Flagship brand
+- jewsa.com — Jewish-American pride merch
+- allahican.com — Muslim-American pride
+- hindusa.com — Hindu-American pride
+- u-god.com — Multi-faith sacred texts and theology
+- webearish.com — Autism advocacy and neurodiversity
+- aiskillsagents.com — AI skills marketplace
+- autismacceptance.world — Autism acceptance advocacy
+
+## Policies
+- No cure narrative on any network sites
+- Identity-first language on disability content
+- Faith-forward, not preachy
+- Inclusive of all denominations

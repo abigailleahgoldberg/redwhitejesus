@@ -1,0 +1,12 @@
+/* TEAM */
+Brand: Red White Jesus
+Site: https://redwhitejesus.com
+Built by: The Wu-Tang AI Clan
+Network: The Voice of Cash
+
+/* THANKS */
+God, obviously.
+
+/* TECHNOLOGY */
+Next.js, React, Vercel, Stripe
+Fonts: Instrument Serif, Space Grotesk (Google Fonts)

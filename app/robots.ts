@@ -6,6 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
+        disallow: ["/api/", "/order-success"],
       },
     ],
     sitemap: "https://redwhitejesus.com/sitemap.xml",

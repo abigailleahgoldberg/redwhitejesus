@@ -1,0 +1,7 @@
+# RedWhiteJesus Security Contact
+# https://redwhitejesus.com/.well-known/security.txt
+
+Contact: mailto:thevoiceofcash@gmail.com
+Preferred-Languages: en
+Canonical: https://redwhitejesus.com/.well-known/security.txt
+Expires: 2027-03-14T00:00:00.000Z
