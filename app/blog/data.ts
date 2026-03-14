@@ -501,6 +501,281 @@ Christians serve their communities because they believe service is part of what 
 **Support faith-based relief:** Organizations like Samaritan's Purse, Catholic Charities, and World Vision are highly rated by charity watchdogs. You can also find supplies for local community service projects on [Amazon](https://www.amazon.com/s?k=community+service+supplies&tag=redwhitejesus-20).`,
   },
   {
+    slug: "why-christian-merch-doesnt-have-to-be-boring",
+    title: "Why Christian Merch Doesn't Have to Be Boring",
+    description:
+      "For too long, faith-forward design meant clip art crosses and uninspired slogans. Here's the case for Christian merch that's actually worth wearing.",
+    category: "Culture",
+    date: "2026-03-01",
+    content: `There is a particular aesthetic that has dominated Christian merchandise for decades. You know it when you see it. The clip art dove. The stock photo of hands folded in prayer. The slightly off-brand font that looks like it was last updated in 2003. The phrase 'Jesus Saves' in a color that does not complement anything in the known universe.
+
+This is not an attack on sincerity. The people who made those products were sincere. But sincerity and good design are not mutually exclusive, and for too long the Christian merchandise market has acted like they were.
+
+**The Problem with Safe**
+
+The instinct toward safe, inoffensive design makes sense. Christian brands are often worried about two things: not offending believers and not alienating seekers. The result is a kind of visual middle ground that succeeds at neither. It doesn't say anything specific enough to resonate with committed Christians, and it doesn't have enough visual quality to attract anyone who cares about aesthetics.
+
+Safe is a trap. The brands that matter -- in any category -- are the ones that commit. They have a point of view. They make choices. They accept that some people won't connect and focus on the people who will.
+
+Christianity is not a mild faith. The cross is not a mild symbol. The resurrection is not a mild claim. The idea that design representing these things should be beige and apologetic is a failure of imagination.
+
+**What Good Faith-Forward Design Actually Looks Like**
+
+Good design in any category starts with clarity about who it's for and what it's saying. Christian merch is no different.
+
+Who is it for? Someone who holds their faith seriously but doesn't want to look like a walking pamphlet. Someone who wants their clothes to reflect something real about who they are without explaining it in a footnote. Someone who would wear it to a concert and to church and to a family dinner and feel appropriate at all three.
+
+What is it saying? Something specific. Not 'Christianity is generally good' in a visual sense. Something with an actual point of view -- a visual language that treats the tradition with the seriousness it deserves while being current enough to exist in the 2020s.
+
+**The American Christianity Aesthetic**
+
+American Christianity has its own visual traditions that go largely untapped in most faith-based merchandise. There's the entire tradition of religious folk art -- hand-lettered scripture, woodblock printing, geometric cross patterns. There's the aesthetic of the Black church tradition, with its rich color and typographic boldness. There's the hymnody tradition, with centuries of beautiful typography in prayer books and songbooks. There's the iconographic tradition of early American Christianity, before mass production flattened everything into the same three typefaces.
+
+The brands that figure out how to pull from these traditions -- not ironically, not as nostalgia, but as genuine design influence -- will produce things worth owning. They'll produce heirlooms, not products.
+
+**The Market Gap**
+
+Here's the practical reality: the Christian American market is enormous. Roughly 65 percent of Americans identify as Christian. That's over 200 million people, a large percentage of whom actively celebrate their faith, buy gifts for faith-related occasions, and would pay for products that actually represented their identity well.
+
+The current market is not serving them. Walk into a Christian bookstore and you'll find a few solid options buried under a lot of mediocrity. Search for Christian apparel online and you'll wade through the clip art dove army. The gap between what exists and what this market deserves is significant.
+
+That gap is an opportunity. Not a cynical one -- an honest one. There is genuine demand for faith-forward design that respects both the tradition it's representing and the intelligence of the people wearing it.
+
+**The Case for Quality**
+
+Christians are not obligated to buy bad products out of loyalty. The tithe doesn't extend to underwhelming merchandise. Quality is a form of respect -- for the tradition, for the wearer, for the people who will see the product and form impressions of what Christianity looks like in 2026.
+
+When a well-designed product representing Christian identity exists in the world, it does something. It says that the people who made it took this seriously. That the faith it represents is worth the effort of doing well. That being Christian-American is not a background trait but an active identity that shows up, including in how you dress.
+
+That's not marketing. That's witness, in the oldest sense of the word.
+
+The aesthetic is available. The market is waiting. The only thing left is to build something worth wearing.`,
+  },
+  {
+    slug: "faith-and-freedom-what-the-founders-actually-believed",
+    title: "Faith and Freedom: Deism vs. Christianity in the American Founding",
+    description:
+      "The Founders are claimed by both sides of every religion debate. The actual history is more nuanced and more interesting than either version.",
+    category: "History",
+    date: "2026-03-05",
+    content: `Every few years, someone publishes a book arguing that America was founded as a Christian nation. A few months later, someone publishes a book arguing the opposite. Both books have receipts. Both books are missing something.
+
+The truth about faith and the American founding is not a simple either/or. It's a story about men who lived inside a Christian moral universe, held widely divergent theological views, built institutions deliberately agnostic on sectarian questions, and produced a founding philosophy that drew from Christian sources without being strictly Christian in any denominational sense.
+
+Understanding this matters -- not just for history class, but for understanding what America actually is and what faith's role in it actually has been.
+
+**The Deism Question**
+
+Deism, as it was understood in the 18th century, held that God created the universe, set it in motion according to rational laws, and generally did not intervene in daily affairs. Deists believed in God. They believed in morality, often derived from religious sources. They rejected miracles, institutional religion, and doctrinal claims that couldn't be verified by reason.
+
+Several of the major founders held views that can be described as broadly Deist. Jefferson famously produced a version of the Gospels with the supernatural elements removed, keeping what he called "the most sublime and benevolent code of morals which has ever been offered to man." Franklin, at the Constitutional Convention, proposed daily prayer but admitted in his autobiography to "some doubts" about the divinity of Jesus.
+
+But Deism in the 18th century was not atheism or even secularism in any modern sense. Deists believed in Providence -- the idea that God was active in history, guiding events toward purposes humans might not always perceive. Washington's correspondence is saturated with references to Providence. The Declaration of Independence appeals four times to the divine: the Creator, the Supreme Judge, Providence, and the laws of Nature and Nature's God.
+
+**The Range of Belief**
+
+The founders were not a theological monolith. This needs to be said clearly, because both sides of the modern debate tend to flatten them.
+
+John Adams was raised Calvinist, moved toward Unitarianism, read widely in world religions, and held what he called an "illuminated faith" that rejected orthodox Christianity while maintaining deep reverence for biblical morality. He wrote that the Constitution was designed only for "a moral and religious people" -- a statement with profound implications for how he understood the relationship between faith and republican government.
+
+Patrick Henry was a committed Anglican who taught himself scripture and argued publicly that Christianity was essential to American liberty. He wrote: "It cannot be emphasized too strongly or too often that this great nation was founded, not by religionists, but by Christians; not on religions, but on the Gospel of Jesus Christ."
+
+Benjamin Rush, one of the signers least remembered and most interesting, was a devout Presbyterian who believed the Bible should be a central text in American education. He wrote: "In contemplating the political institutions of the United States, if we were to remove the Bible from schools, I lament that we could be wasting so much time and money in punishing crimes and taking so little pains to prevent them."
+
+**The First Amendment's Purpose**
+
+The First Amendment's religion clauses -- "Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof" -- are sometimes read as evidence that the founders intended a secular republic. This misreads the history.
+
+The establishment clause was not designed to protect the republic from religion. It was designed to protect religion from the republic -- and specifically to prevent the federal government from doing what European states had done for centuries, which was picking a winner among competing Christian denominations and using state power to enforce it.
+
+Virginia Baptists, who had been jailed for preaching without a license under the Anglican establishment in colonial Virginia, were among the strongest advocates for disestablishment. Their argument was not that religion should be excluded from public life. It was that government interference in religion corrupted both. Roger Williams, a century earlier, had called institutional church-state fusion "a soul rape."
+
+The separation of church and state, as the founders understood it, was a protection for religious liberty -- not a declaration of secular government.
+
+**What the Founding Documents Actually Say**
+
+The Constitution, notably, does not mention God, Christianity, or the Bible. This was not an accident. The founders were creating a national government that needed to accommodate citizens of many denominations -- and they knew that any specific theological language would immediately create battles they didn't need.
+
+The Declaration of Independence is different. It makes four appeals to the divine. The "Creator" who endows humans with rights is a theistic concept -- rights come from God, not from government. The "Supreme Judge of the world" to whom the founders appealed in the declaration's final paragraph is explicitly theological. These were not empty rhetorical flourishes. They were claims with substantive implications: human dignity is grounded in something prior to human law.
+
+The national motto "In God We Trust" was officially adopted in 1956, but the phrase appeared on American coins as early as 1864. "One nation under God" was added to the Pledge in 1954. These mid-20th-century additions were deliberate choices to distinguish American identity from Soviet atheism -- but they built on a foundation that was already there.
+
+**The Practical Consequence**
+
+The founders built a republic that could not sustain itself without the moral character they believed only religion could cultivate. They disagreed about which religion, and they deliberately declined to name one. But they were nearly unanimous that self-government required self-restraint, and that self-restraint required something like what Christianity taught.
+
+Washington's Farewell Address put it plainly: "Of all the dispositions and habits which lead to political prosperity, religion and morality are indispensable supports." He did not say which religion. But he was not being evasive. He was describing a political philosophy -- that republican government depends on citizens who can govern themselves, and that self-government of that kind requires moral formation that secular philosophy alone had not proven adequate to produce.
+
+Whether that argument holds in 2026 is a question Americans are still working out. What's clear is that the founders' view of faith and freedom was not simple, and it was not secular in any modern sense of that word. They built a country that took God seriously, even when they disagreed about which God and how.`,
+  },
+  {
+    slug: "history-of-christian-holidays-in-america",
+    title: "The History of Christian Holidays in America",
+    description:
+      "How European Christian traditions became distinctly American celebrations -- and what got added along the way.",
+    category: "History",
+    date: "2026-03-08",
+    content: `The Christian holidays Americans celebrate today are a layered thing. Some elements go back to the early church. Some come from medieval Europe. Some were added by German immigrants in the 19th century. Some were shaped by American retail culture in the 20th. What looks like a timeless tradition is often a relatively recent assembly of pieces from very different times and places.
+
+That doesn't make them less meaningful. It makes them American -- a country built on exactly this kind of synthesis, where things from different origins combine into something that feels entirely native.
+
+**Christmas: The Long Journey**
+
+Christmas as a Christian holiday dates to the early church, though December 25 wasn't universally settled as the date until the 4th century. The early American colonies had an ambivalent relationship with Christmas. The Puritans of New England actively discouraged it. Massachusetts actually banned Christmas celebrations between 1659 and 1681, on the grounds that it had become an excuse for "disorder." Christmas was not a federal holiday until 1870.
+
+The transformation of Christmas into the holiday Americans know today happened primarily in the 19th century, and it involved several distinct streams.
+
+German immigrants brought the Christmas tree tradition. Prince Albert of Saxe-Coburg, who married Queen Victoria, popularized the Christmas tree in England and from there in America. Charles Dickens' "A Christmas Carol" (1843) helped codify the holiday's emotional character -- generosity, family, redemption, the warming of a cold-hearted man. Clement Moore's "A Visit from St. Nicholas" (1823) gave Americans Santa Claus in something close to his modern form, though the sleigh and reindeer were his additions to an older Dutch tradition.
+
+By the late 19th century, American Christmas had become what it largely remains: a religious holiday and a cultural institution simultaneously, with the two coexisting sometimes comfortably and sometimes with friction.
+
+**Easter: The Oldest and the Most Changed**
+
+Easter is the oldest Christian holiday and the one that requires the least historical reconstruction: it has been the central observance of Christianity since the first century. The resurrection of Jesus Christ is the event the entire faith is built on, and Christians have been gathering on the Sunday after Passover to commemorate it since before the New Testament was written.
+
+What has changed is everything around it. Easter eggs, the Easter bunny, and the pastel-colored basket tradition came to America through German and Dutch immigrants, many of whom had spring traditions that predated their Christian conversion. The Easter egg as a symbol of new life maps neatly onto resurrection theology. The bunny is harder to map onto anything theological, but it persists.
+
+Easter in America has never been as commercially elaborated as Christmas, partly because it falls at an unpredictable time in spring, partly because its theological core is more somber, and partly because it resists easy gift-giving in the way Christmas does not. This is, many Christians argue, appropriate. Easter should be harder to domesticate. It is about death and the defeat of death, and even the chocolate bunny hasn't entirely obscured that.
+
+**Thanksgiving: The Holiday Christianity Half-Owns**
+
+Thanksgiving is worth including here because it sits in an interesting middle position. It is not a specifically Christian holiday, but its origins are explicitly religious.
+
+The Plymouth colonists who celebrated the first Thanksgiving in 1621 were Separatists -- Protestant Christians who had broken with the Church of England over what they considered insufficient reform. Their settlement was conceived as a religious project. Their day of thanksgiving was addressed to God.
+
+Abraham Lincoln declared a national day of Thanksgiving in 1863, in the middle of the Civil War, in language that was explicitly theological: he called on Americans to give thanks to "our beneficent Father who dwelleth in the Heavens." The holiday has secularized considerably since then, but its roots are in a faith tradition that understood good fortune as gift rather than accident.
+
+**Advent: The Season America Almost Lost and Then Found**
+
+Advent -- the four-week season before Christmas -- was largely absent from American Protestant practice for most of the 19th and 20th centuries. It was observed by Catholics, Episcopalians, and Lutherans, but most evangelical and non-denominational churches didn't mark it liturgically.
+
+The recovery of Advent in recent decades is one of the more interesting developments in American Christianity. Churches that previously went straight from Halloween candy to Christmas carols began slowing down, lighting candles, and reading texts about waiting and expectation. The Advent calendar, which went from devotional booklet to chocolate dispensary over the course of the 20th century, is now everywhere.
+
+The recovery has something to do with a cultural hunger for slowness -- for a rhythm different from the frantic commercial Christmas that begins in October. Advent offers structure, anticipation, and a reason to resist the rush. It turns out people were ready for that.
+
+**The Ongoing American Project**
+
+What makes American Christian holidays distinctive is the speed and completeness with which they absorb cultural elements from every source available. Christmas trees from Germany, Santa from the Netherlands via England, Easter eggs from European folk tradition -- all of these are now so thoroughly American that most people assume they've always been this way.
+
+This is very American. The country has always taken things from everywhere and made them its own. The Christian holidays that anchor the American year are a product of the same process -- layered, synthetic, thoroughly naturalized, and genuinely meaningful to the people who observe them.
+
+The theological core of each has survived the layering. Christmas is still about the incarnation. Easter is still about the resurrection. Thanksgiving is still about gratitude to something beyond the self. The chocolate and the trees and the parade balloons surround these things without replacing them. Which is, all things considered, a pretty good outcome for two thousand years of religious tradition navigating American commerce.`,
+  },
+  {
+    slug: "grace-under-pressure-what-christianity-teaches-about-hard-times",
+    title: "Grace Under Pressure: What Christianity Teaches About Hard Times",
+    description:
+      "Job loss, grief, illness, failure. Christianity has specific things to say about suffering that are worth knowing before you need them.",
+    category: "Religion",
+    date: "2026-03-10",
+    content: `There are two kinds of religious wisdom about suffering. The first kind is the kind that explains it, assigns causes, argues for cosmic justice. The second kind is the kind that sits with you in it.
+
+Christianity has both, but its best moments are in the second category. The tradition at its most honest does not claim that suffering makes sense, that it's always instructive, or that faith will protect you from the worst of what life produces. What it claims is something different: that suffering is not the final word, and that you are not alone in it.
+
+That's not a small claim. For people in the middle of hard things, it is often the only claim worth anything.
+
+**The Problem of Suffering Honestly Addressed**
+
+Christianity does not pretend that suffering is good or that it always makes sense. The Book of Job -- one of the oldest and strangest books in the Bible -- is essentially a direct confrontation with the idea that suffering is always deserved or explicable. Job is a righteous man who loses everything: his children, his health, his fortune. His friends insist he must have sinned. Job insists he has not. He is right. God, when he finally speaks from the whirlwind, does not explain Job's suffering. He simply reveals himself -- and that revelation is presented as sufficient.
+
+This is deeply unsatisfying to people who want an explanation. It is not presented as an explanation. It is presented as presence. The answer to Job's suffering is not a theodicy. It is an encounter.
+
+The Psalms, which are the prayer book of Judaism and a central text of Christian devotion, are full of what scholars call lament -- prayers of raw complaint directed at God. "How long, O Lord, will you forget me forever?" (Psalm 13). "My God, my God, why have you forsaken me?" (Psalm 22). These are not expressions of doubt in the sense of leaving faith. They are expressions of faith that is honest enough to say when things are terrible. The willingness to pray "why have you abandoned me" is itself an act of faith -- you don't complain to someone who isn't there.
+
+**What the New Testament Adds**
+
+The New Testament's contribution to the theology of suffering is specific: it centers on a God who suffered. Jesus Christ, in Christian theology, was not a deity who observed human suffering from a safe distance. He entered it. He got hungry and tired and afraid. He wept at the tomb of his friend Lazarus, in a passage that is the shortest verse in the Bible (John 11:35) and possibly the most significant -- God, weeping. Not explaining death. Grieving it.
+
+The crucifixion is the center of this. The cross is not a symbol of suffering avoided or explained away. It is a symbol of suffering absorbed. Christians have found in it, for two millennia, the assurance that wherever they are in the worst moments of their lives, they are not somewhere God has never been.
+
+Paul, in his letter to the Romans, makes this point theologically: "We know that in all things God works for the good of those who love him." This is often misread as a promise that things will work out in ways that feel good. What it actually says is that God is active within all things -- including the terrible ones -- working toward purposes that may not be visible from inside the suffering. It's not a guarantee of comfort. It's a claim about the direction of history.
+
+**The Practical Theology of Hard Times**
+
+Christianity has developed practical responses to suffering over two thousand years that are worth knowing.
+
+Lament is legitimate. The tradition gives you permission to say this is terrible. You don't have to perform gratitude or acceptance you don't feel. The Psalms model a practice of bringing the full weight of your situation to God without performing equanimity.
+
+Community is essential. The New Testament's vision of the church is not a collection of individuals who each have a private relationship with God. It's a body -- a community that suffers together and bears each other's burdens. "Bear one another's burdens, and so fulfill the law of Christ" (Galatians 6:2). The early church's practice of caring for widows, orphans, the sick, and the imprisoned wasn't charity. It was ecclesiology -- the church being what it was supposed to be.
+
+Suffering is not the end of the story. This is Christianity's most distinctive claim about hard times. The resurrection means that the worst thing that can happen is not the last thing that happens. Christians throughout history have found in this claim the ability to endure circumstances that would otherwise be simply unbearable. Not because the suffering wasn't real, but because they believed it wasn't final.
+
+**What This Looks Like on the Ground**
+
+The people who have applied this most credibly are often the ones who have suffered most severely. Harriet Tubman, who escaped slavery and then returned repeatedly to free others, described herself as guided by God through impossible circumstances. The early martyrs, who died for their faith rather than renounce it, are remembered not as people who avoided suffering but as people who walked into it with unusual calm. Corrie ten Boom, who survived a Nazi concentration camp and wrote about it in "The Hiding Place," described forgiveness of her captors as the act that finally freed her.
+
+These are extreme examples. Most people's hard times are less dramatic but no less real -- the job that ends without warning, the diagnosis that changes everything, the relationship that collapses, the grief that doesn't lift. The Christian tradition's resources for these moments are not primarily philosophical. They are practical and relational: community, prayer, lament, the slow accumulation of trust in something larger than the present suffering.
+
+**What Not to Say**
+
+It is worth naming the things Christianity says about suffering that are not helpful. "Everything happens for a reason" is not a biblical claim. "God needed another angel" is theology that would puzzle most theologians. "Just pray harder" misunderstands prayer. "This is a test" may be true in some theological framework but is rarely useful to say to someone who is in the middle of the hardest thing they've ever faced.
+
+The most useful thing the tradition offers is presence -- showing up, sitting with, not explaining. Jesus did not explain Lazarus's death to Mary and Martha before he raised him. He wept with them first. That sequence matters.
+
+Grace under pressure, in the Christian understanding, is not the absence of pressure. It is what is available inside it.`,
+  },
+  {
+    slug: "christian-community-in-2026",
+    title: "Christian Community in 2026: How Faith Connects in the Digital Age",
+    description:
+      "Church attendance has shifted. Online community has exploded. What does genuine Christian community look like when so much of life happens on a screen?",
+    category: "Community",
+    date: "2026-03-13",
+    content: `Something strange happened to Christian community over the past decade. Church attendance declined -- especially among younger Americans. And simultaneously, online expressions of Christian identity exploded. Instagram accounts with millions of followers built around daily scripture. TikTok creators with huge audiences talking about faith. Podcast networks covering theology, devotion, and the intersection of Christianity with culture.
+
+The picture that emerges is not a simple narrative of decline. It's a story about how community is being rebuilt in a different form, with different tools, and with both real gains and real losses compared to what it's replacing.
+
+**The Numbers Behind the Shift**
+
+Regular church attendance -- defined as attending services at least monthly -- has declined among American Christians over the past two decades. The pandemic accelerated this. Many people who stopped attending church during COVID lockdowns did not return when restrictions lifted. Some found digital alternatives. Some found nothing. Some discovered they had more time on Sunday mornings than they'd realized and weren't sure what to do with it.
+
+At the same time, people who describe themselves as "spiritual but not religious" have increased. A significant portion of this group maintains some Christian identity and some engagement with Christian content -- just not through institutional church participation.
+
+What this means for the 65 percent of Americans who identify as Christian is that the map of how people actually practice faith and build faith-based relationships is being redrawn in real time.
+
+**What Online Community Can Do**
+
+Online Christian community has genuine strengths that are worth naming honestly.
+
+Access. Someone in a rural area with no theologically serious church within an hour's drive can access Bible teaching, community, and faith formation through a phone. Someone who is homebound due to illness can participate in worship and study. Someone who is questioning their faith and not ready to walk back into a church can explore without the social stakes of doing it in person.
+
+Niche. A person with a specific theological interest -- say, early church history, or Reformed theology, or the intersection of Christianity and mental health -- can find exactly the community that shares that interest, regardless of geography. The internet is extraordinarily good at aggregating people around shared specific interests that are too niche to sustain a local group.
+
+Scale. The reach of excellent Christian teaching has expanded enormously. Teachers and preachers who would previously have reached a local congregation now reach hundreds of thousands. This has genuine value -- good ideas spread further, and people who might never encounter serious theology in their local context can find it.
+
+**What Online Community Cannot Do**
+
+The limitations are equally real.
+
+Embodied presence. Christianity is, at its core, a religion of incarnation -- the belief that God showed up in a body. The tradition is full of embodied practices: baptism (water on skin), communion (bread in the mouth), anointing (oil on the forehead), the laying on of hands in ordination. You cannot do these through a screen. The digital church is always missing something that only bodies in the same room can provide.
+
+Mutual accountability. Real community is inconvenient. It involves people who are not exactly like you, whose needs create demands on your time and resources, who see you when you are not performing your best self. The algorithms that drive digital community tend to optimize for comfort and engagement, not for the kind of friction that actually forms character.
+
+The long game. Online community is excellent at wide and shallow connection. The kind of relationship built over decades -- the people who show up when you're sick, who know your family, who will tell you the truth when you don't want to hear it -- is almost impossible to build through digital interaction alone.
+
+Sacramental life. The major Christian traditions maintain that certain things require physical presence and ordained authority. Baptism, Eucharist, Confession, Confirmation -- these cannot be delivered through a podcast. A church that exists only online cannot, in most theological frameworks, be fully church.
+
+**The Hybrid Reality**
+
+What's emerging for many Christians in 2026 is a hybrid -- some combination of physical and digital community that doesn't quite match either the traditional church model or the fully online alternative.
+
+Some churches have made this deliberate. They maintain in-person worship while building digital communities between services -- small groups that meet on video calls, social media accounts that function as gathering places, podcasts and email newsletters that extend the conversation across the week. The digital components don't replace the physical community but supplement it.
+
+Some Christians participate in a physical community for Sunday worship and find their ongoing theological community online. This is imperfect but not incoherent. Different modes of connection serve different needs.
+
+Some have drifted to digital-only and are finding, a few years in, that something is missing. The convenience of accessing faith content without the obligation of community turns out to have a cost. Consumption without participation -- which is what most online faith engagement amounts to -- is not the same thing as the mutual accountability and shared life that the New Testament describes as the body of Christ.
+
+**What the Church Has Always Been For**
+
+Christianity's vision of community -- the New Testament Greek word is "koinonia," meaning fellowship or sharing in common -- was never about having a consistent consumer experience. It was about mutual obligation, shared suffering, collective celebration, and the formation of people into something they couldn't be alone.
+
+That vision is not obsolete. It is, if anything, more countercultural now than it has ever been in American life. In an age of customized feeds, algorithmic echo chambers, and social connection optimized for comfort, a community that makes demands on you -- that asks you to show up for people you wouldn't have chosen, to bear burdens that aren't yours, to stay when it would be easier to leave -- is unusual. Unusual things, well done, attract people.
+
+The Christian community of 2026 will probably be messier, more distributed, more digitally fluent, and less institutionally stable than the church of 1975. It will also probably have more people who have found it specifically because nothing else was filling the hole that genuine community fills. Christianity has always grown in unexpected soil.
+
+The task for Christians building community in 2026 is the same as it has always been: be genuinely present to people, bear each other's actual burdens, and do the slow work of forming the kinds of relationships that last. The platform changes. The work does not.`,
+  },
+  {
     slug: "faith-and-work-christian-professionals",
     title: "Faith and Work: How Christian Professionals Navigate the Modern Workplace",
     description:

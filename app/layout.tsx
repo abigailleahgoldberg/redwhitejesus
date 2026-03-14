@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { CartProvider } from "../lib/cart-context";
+import Header from "../components/Header";
 
 export const metadata: Metadata = {
   title: "RedWhiteJesus -- One Nation. Under God. Undeniably American.",
@@ -12,6 +14,10 @@ export const metadata: Metadata = {
     "American Christianity",
     "faith apparel",
     "Christian gifts",
+    "Christian merch",
+    "faith gifts",
+    "Christian t-shirts",
+    "religious gifts",
   ],
   openGraph: {
     title: "RedWhiteJesus -- One Nation. Under God. Undeniably American.",
@@ -23,12 +29,6 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL("https://redwhitejesus.com"),
 };
-
-const NAV_LINKS = [
-  { label: "Shop", href: "https://store.redwhitejesus.com" },
-  { label: "Blog", href: "/blog" },
-  { label: "Get Involved", href: "/advertise" },
-];
 
 const NETWORK = [
   { label: "JewSA", href: "https://jewsa.com" },
@@ -47,208 +47,140 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header
-          style={{
-            backgroundColor: "#08060A",
-            borderBottom: "2px solid #CC2200",
-            position: "sticky",
-            top: 0,
-            zIndex: 100,
-          }}
-        >
-          <nav
-            style={{
-              maxWidth: 1100,
-              margin: "0 auto",
-              padding: "0 24px",
-              height: 64,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "space-between",
-            }}
-          >
-            <a
-              href="/"
-              style={{
-                display: "flex",
-                alignItems: "baseline",
-                gap: 4,
-                textDecoration: "none",
-              }}
-            >
-              <span
-                style={{
-                  fontSize: 22,
-                  fontWeight: 700,
-                  color: "#F5F0E8",
-                  letterSpacing: "0.02em",
-                  fontFamily: "Georgia, serif",
-                }}
-              >
-                Red White
-              </span>
-              <span
-                style={{
-                  fontSize: 22,
-                  fontWeight: 700,
-                  color: "#CC2200",
-                  letterSpacing: "0.02em",
-                  fontFamily: "Georgia, serif",
-                }}
-              >
-                Jesus
-              </span>
-            </a>
-            <div style={{ display: "flex", gap: 28, alignItems: "center" }}>
-              {NAV_LINKS.map((link) => (
-                <a
-                  key={link.label}
-                  href={link.href}
-                  style={{
-                    color: "#F5F0E8",
-                    fontSize: 15,
-                    fontWeight: 500,
-                    letterSpacing: "0.03em",
-                    opacity: 0.9,
-                    transition: "color 0.2s",
-                  }}
-                >
-                  {link.label}
-                </a>
-              ))}
-            </div>
-          </nav>
-        </header>
+        <CartProvider>
+          <Header />
 
-        <main>{children}</main>
+          <main>{children}</main>
 
-        <footer
-          style={{
-            backgroundColor: "#0D0A10",
-            borderTop: "2px solid #CC2200",
-            padding: "48px 24px 32px",
-            marginTop: 80,
-          }}
-        >
-          <div
+          <footer
             style={{
-              maxWidth: 1100,
-              margin: "0 auto",
+              backgroundColor: "#0D0A10",
+              borderTop: "2px solid #CC2200",
+              padding: "48px 24px 32px",
+              marginTop: 80,
             }}
           >
             <div
               style={{
-                display: "flex",
-                flexWrap: "wrap",
-                gap: 48,
-                justifyContent: "space-between",
-                marginBottom: 40,
+                maxWidth: 1100,
+                margin: "0 auto",
               }}
             >
-              <div style={{ minWidth: 220 }}>
-                <div
-                  style={{
-                    fontSize: 20,
-                    fontWeight: 700,
-                    marginBottom: 8,
-                    fontFamily: "Georgia, serif",
-                  }}
-                >
-                  <span style={{ color: "#F5F0E8" }}>Red White</span>
-                  <span style={{ color: "#CC2200" }}> Jesus</span>
+              <div
+                style={{
+                  display: "flex",
+                  flexWrap: "wrap",
+                  gap: 48,
+                  justifyContent: "space-between",
+                  marginBottom: 40,
+                }}
+              >
+                <div style={{ minWidth: 220 }}>
+                  <div
+                    style={{
+                      fontSize: 20,
+                      fontWeight: 700,
+                      marginBottom: 8,
+                      fontFamily: "Georgia, serif",
+                    }}
+                  >
+                    <span style={{ color: "#F5F0E8" }}>Red White</span>
+                    <span style={{ color: "#CC2200" }}> Jesus</span>
+                  </div>
+                  <p style={{ color: "#a09888", fontSize: 14, lineHeight: 1.7 }}>
+                    One Nation. Under God. Undeniably American.
+                    <br />
+                    Blessed and dressed since Bethlehem.
+                  </p>
                 </div>
-                <p style={{ color: "#a09888", fontSize: 14, lineHeight: 1.7 }}>
-                  One Nation. Under God. Undeniably American.
-                  <br />
-                  Blessed and dressed since Bethlehem.
+
+                <div style={{ minWidth: 160 }}>
+                  <div
+                    style={{
+                      color: "#D4AF37",
+                      fontSize: 11,
+                      fontWeight: 700,
+                      letterSpacing: "0.12em",
+                      textTransform: "uppercase",
+                      marginBottom: 14,
+                    }}
+                  >
+                    Explore
+                  </div>
+                  <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+                    {[
+                      { label: "Shop", href: "https://store.redwhitejesus.com" },
+                      { label: "Cart", href: "/cart" },
+                      { label: "Blog", href: "/blog" },
+                      { label: "Advertise", href: "/advertise" },
+                    ].map((l) => (
+                      <a
+                        key={l.label}
+                        href={l.href}
+                        style={{ color: "#a09888", fontSize: 14, textDecoration: "none" }}
+                      >
+                        {l.label}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+
+                <div style={{ minWidth: 220 }}>
+                  <div
+                    style={{
+                      color: "#D4AF37",
+                      fontSize: 11,
+                      fontWeight: 700,
+                      letterSpacing: "0.12em",
+                      textTransform: "uppercase",
+                      marginBottom: 14,
+                    }}
+                  >
+                    The Network
+                  </div>
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      gap: 10,
+                    }}
+                  >
+                    {NETWORK.map((site) => (
+                      <a
+                        key={site.label}
+                        href={site.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ color: "#a09888", fontSize: 14, textDecoration: "none" }}
+                      >
+                        {site.label}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              <div
+                style={{
+                  borderTop: "1px solid #2a2030",
+                  paddingTop: 24,
+                  display: "flex",
+                  flexWrap: "wrap",
+                  gap: 16,
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                }}
+              >
+                <p style={{ color: "#5a5060", fontSize: 13 }}>
+                  &copy; {new Date().getFullYear()} RedWhiteJesus. All rights reserved. Made with faith and a healthy respect for the First Amendment.
+                </p>
+                <p style={{ color: "#5a5060", fontSize: 13 }}>
+                  Not affiliated with any political party. Just God and country.
                 </p>
               </div>
-
-              <div style={{ minWidth: 160 }}>
-                <div
-                  style={{
-                    color: "#D4AF37",
-                    fontSize: 11,
-                    fontWeight: 700,
-                    letterSpacing: "0.12em",
-                    textTransform: "uppercase",
-                    marginBottom: 14,
-                  }}
-                >
-                  Explore
-                </div>
-                <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-                  {[
-                    { label: "Shop", href: "https://store.redwhitejesus.com" },
-                    { label: "Blog", href: "/blog" },
-                    { label: "Advertise", href: "/advertise" },
-                  ].map((l) => (
-                    <a
-                      key={l.label}
-                      href={l.href}
-                      style={{ color: "#a09888", fontSize: 14 }}
-                    >
-                      {l.label}
-                    </a>
-                  ))}
-                </div>
-              </div>
-
-              <div style={{ minWidth: 220 }}>
-                <div
-                  style={{
-                    color: "#D4AF37",
-                    fontSize: 11,
-                    fontWeight: 700,
-                    letterSpacing: "0.12em",
-                    textTransform: "uppercase",
-                    marginBottom: 14,
-                  }}
-                >
-                  The Network
-                </div>
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    gap: 10,
-                  }}
-                >
-                  {NETWORK.map((site) => (
-                    <a
-                      key={site.label}
-                      href={site.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{ color: "#a09888", fontSize: 14 }}
-                    >
-                      {site.label}
-                    </a>
-                  ))}
-                </div>
-              </div>
             </div>
-
-            <div
-              style={{
-                borderTop: "1px solid #2a2030",
-                paddingTop: 24,
-                display: "flex",
-                flexWrap: "wrap",
-                gap: 16,
-                justifyContent: "space-between",
-                alignItems: "center",
-              }}
-            >
-              <p style={{ color: "#5a5060", fontSize: 13 }}>
-                &copy; {new Date().getFullYear()} RedWhiteJesus. All rights reserved. Made with faith and a healthy respect for the First Amendment.
-              </p>
-              <p style={{ color: "#5a5060", fontSize: 13 }}>
-                Not affiliated with any political party. Just God and country.
-              </p>
-            </div>
-          </div>
-        </footer>
+          </footer>
+        </CartProvider>
       </body>
     </html>
   );

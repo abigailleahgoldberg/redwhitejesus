@@ -53,3 +53,81 @@ input, textarea, select {
   from { opacity: 0; transform: translateY(12px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+/* ============================================================
+   RESPONSIVE / MOBILE
+   ============================================================ */
+
+/* Desktop: show normal nav, hide mobile controls */
+.desktop-nav {
+  display: flex !important;
+}
+.mobile-nav-controls {
+  display: none !important;
+}
+.mobile-cta-bar {
+  display: none !important;
+}
+
+@media (max-width: 900px) {
+  /* Swap nav controls */
+  .desktop-nav {
+    display: none !important;
+  }
+  .mobile-nav-controls {
+    display: flex !important;
+  }
+  .mobile-cta-bar {
+    display: flex !important;
+  }
+
+  /* Add bottom padding so sticky bar doesn't cover content */
+  main {
+    padding-bottom: 80px;
+  }
+
+  /* Holiday calendar: stack on mobile */
+  .holiday-row {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Footer: center and stack */
+  footer > div > div:first-child {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* Hero: tighten padding on mobile */
+  .hero-section {
+    padding: 48px 20px 48px !important;
+    min-height: 340px !important;
+  }
+
+  /* Email form: stack vertically */
+  .email-form {
+    flex-direction: column !important;
+  }
+
+  /* Occasions grid: 2 columns on mobile */
+  .occasions-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  /* FAQ grid: single column */
+  .faq-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Brand story grid: stack */
+  .brand-story-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Very small screens: single column occasions */
+  .occasions-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
