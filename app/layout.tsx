@@ -124,6 +124,9 @@ export default function RootLayout({
                   <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
                     {[
                       { label: "Shop", href: "https://store.redwhitejesus.com" },
+                      { label: "Holidays", href: "/calendar" },
+                      { label: "Daily Verse", href: "/daily-verse" },
+                      { label: "Resources", href: "/resources" },
                       { label: "Cart", href: "/cart" },
                       { label: "Blog", href: "/blog" },
                       { label: "Advertise", href: "/advertise" },

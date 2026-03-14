@@ -72,51 +72,43 @@ const GLOSSARY = [
 const HOLIDAYS = [
   {
     name: "Christmas",
-    date2026: "December 25, 2026",
-    description: "The celebration of the birth of Jesus Christ.",
-    observed: "Church services, gift-giving, family gatherings, nativity scenes, and enough Christmas carols to last until March.",
+    slug: "christmas",
+    description: "The celebration of the birth of Jesus Christ, the Son of God, who came to earth to redeem humanity.",
   },
   {
     name: "Easter",
-    date2026: "April 5, 2026",
-    description: "The resurrection of Jesus Christ, the central event of the Christian faith.",
-    observed: "Sunrise services, Easter egg hunts, ham dinner, and the annual parking lot stress test at every church in America.",
+    slug: "easter",
+    description: "The resurrection of Jesus Christ — the central and defining event of the Christian faith.",
   },
   {
     name: "Good Friday",
-    date2026: "April 3, 2026",
-    description: "Commemorates the crucifixion of Jesus Christ.",
-    observed: "Solemn services, fasting, reflection. The quietest Friday on the Christian calendar.",
+    slug: "good-friday",
+    description: "The solemn commemoration of the crucifixion and death of Jesus Christ on the cross.",
   },
   {
     name: "Ash Wednesday",
-    date2026: "February 18, 2026",
-    description: "The start of Lent, a 40-day season of reflection before Easter.",
-    observed: "Receiving ashes on the forehead as a sign of mortality and repentance. Great conversation starter at work.",
+    slug: "ash-wednesday",
+    description: "The first day of Lent — a season of repentance, fasting, and preparation before Easter.",
   },
   {
     name: "Pentecost",
-    date2026: "May 24, 2026",
-    description: "Celebrates the descent of the Holy Spirit on the apostles.",
-    observed: "Church services, often with red vestments or decor. Sometimes called the birthday of the Church. Cake has not yet become standard but we support it.",
+    slug: "pentecost",
+    description: "The descent of the Holy Spirit upon the apostles, called the birthday of the Church.",
   },
   {
     name: "Advent",
-    date2026: "Begins November 29, 2026",
-    description: "A four-week season of waiting and preparation before Christmas.",
-    observed: "Advent wreaths, candles lit each Sunday, calendars with tiny chocolate doors. Anticipation, correctly observed.",
+    slug: "advent",
+    description: "A four-week season of waiting, hope, and preparation leading up to Christmas.",
   },
   {
     name: "Palm Sunday",
-    date2026: "March 29, 2026",
-    description: "Jesus's triumphal entry into Jerusalem, one week before Easter.",
-    observed: "Palm branches, processions, and the beginning of Holy Week.",
+    slug: "palm-sunday",
+    description: "Jesus's triumphal entry into Jerusalem — the beginning of Holy Week.",
   },
   {
     name: "Epiphany",
-    date2026: "January 6, 2026",
-    description: "Celebrates the visit of the Magi to the infant Jesus. Marks the end of the Christmas season.",
-    observed: "The Feast of the Three Kings. King cake in some traditions. The official theological end of Christmas, which means you can take down the tree now.",
+    slug: "epiphany",
+    description: "The revelation of Jesus to the Magi, and to all the nations of the world.",
   },
 ];
 
@@ -1190,7 +1182,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Holidays Calendar */}
+      {/* Holidays */}
       <section
         style={{
           maxWidth: 1100,
@@ -1209,7 +1201,7 @@ export default function HomePage() {
               marginBottom: 12,
             }}
           >
-            Mark Your Calendar
+            The Liturgical Year
           </div>
           <h2
             style={{
@@ -1219,65 +1211,92 @@ export default function HomePage() {
               fontFamily: "var(--font-heading), serif",
             }}
           >
-            Christian Holidays 2026
+            Christian Holidays
           </h2>
+          <p style={{ color: "#6A6A6A", fontSize: 15, marginTop: 12, maxWidth: 520, margin: "12px auto 0" }}>
+            The feasts and seasons that have shaped Christian worship for two thousand years.
+          </p>
         </div>
-        <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
+            gap: 20,
+          }}
+        >
           {HOLIDAYS.map((h) => (
-            <div
+            <a
               key={h.name}
-              className="holiday-row"
+              href={`/holidays/${h.slug}`}
               style={{
                 backgroundColor: "#FFFFFF",
                 border: "1px solid #E8E6E1",
                 borderRadius: 8,
-                padding: "24px 28px",
-                display: "grid",
-                gridTemplateColumns: "200px 1fr",
-                gap: 24,
-                alignItems: "start",
+                padding: "24px 24px",
+                display: "flex",
+                flexDirection: "column",
+                gap: 10,
                 boxShadow: "0 1px 3px rgba(0,0,0,0.04)",
+                textDecoration: "none",
+                transition: "border-color 0.2s, box-shadow 0.2s",
               }}
             >
-              <div>
-                <div
-                  style={{
-                    color: "#CC2200",
-                    fontSize: 17,
-                    fontWeight: 700,
-                    fontFamily: "var(--font-heading), serif",
-                    marginBottom: 4,
-                  }}
-                >
-                  {h.name}
-                </div>
-                <div
-                  style={{
-                    color: "#B8960C",
-                    fontSize: 13,
-                    fontWeight: 600,
-                  }}
-                >
-                  {h.date2026}
-                </div>
+              <div
+                style={{
+                  color: "#CC2200",
+                  fontSize: 17,
+                  fontWeight: 700,
+                  fontFamily: "var(--font-heading), serif",
+                }}
+              >
+                {h.name}
               </div>
-              <div>
-                <p
-                  style={{
-                    color: "#1A1A1A",
-                    fontSize: 14,
-                    marginBottom: 6,
-                    fontWeight: 500,
-                  }}
-                >
-                  {h.description}
-                </p>
-                <p style={{ color: "#6A6A6A", fontSize: 14, lineHeight: 1.6 }}>
-                  {h.observed}
-                </p>
-              </div>
-            </div>
+              <p
+                style={{
+                  color: "#4A4A4A",
+                  fontSize: 14,
+                  lineHeight: 1.6,
+                  flex: 1,
+                }}
+              >
+                {h.description}
+              </p>
+              <span
+                style={{
+                  color: "#B8960C",
+                  fontSize: 13,
+                  fontWeight: 600,
+                  display: "flex",
+                  alignItems: "center",
+                  gap: 4,
+                }}
+              >
+                Learn more
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                </svg>
+              </span>
+            </a>
           ))}
+        </div>
+        <div style={{ textAlign: "center", marginTop: 32 }}>
+          <a
+            href="/calendar"
+            style={{
+              border: "2px solid #CC2200",
+              color: "#CC2200",
+              padding: "12px 32px",
+              borderRadius: 4,
+              fontWeight: 700,
+              fontSize: 14,
+              letterSpacing: "0.06em",
+              textTransform: "uppercase",
+              textDecoration: "none",
+              display: "inline-block",
+            }}
+          >
+            View Full Calendar
+          </a>
         </div>
       </section>
 

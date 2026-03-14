@@ -5,6 +5,8 @@ import { useCart } from "../lib/cart-context";
 
 const NAV_LINKS = [
   { label: "Shop", href: "https://store.redwhitejesus.com" },
+  { label: "Holidays", href: "/calendar" },
+  { label: "Daily Verse", href: "/daily-verse" },
   { label: "Cart", href: "/cart" },
   { label: "Blog", href: "/blog" },
   { label: "Get Involved", href: "/advertise" },
