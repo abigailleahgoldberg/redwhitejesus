@@ -452,6 +452,10 @@ export default function CartPage() {
               Secure checkout powered by Stripe
             </div>
 
+            <p style={{ fontSize: 13, color: "#C8102E", marginTop: 10, textAlign: "center", lineHeight: 1.5 }}>
+              Have a coupon code? You can enter it on the checkout page.
+            </p>
+
             <button
               onClick={clearCart}
               style={{
