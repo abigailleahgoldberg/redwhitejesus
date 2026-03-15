@@ -1,7 +1,7 @@
 /* TEAM */
 Brand: Red White Jesus
 Site: https://redwhitejesus.com
-Built by: The Wu-Tang AI Clan
+Built by: The Voice of Cash Team
 Network: The Voice of Cash
 
 /* THANKS */
