@@ -46,6 +46,9 @@ Red White Jesus is a Christian-American pride brand. We make faith-forward merch
 - Christian Community in 2026
 - Faith and Work: Christian Professionals
 - American Gospel: How Music Shaped Christian Culture in the US
+- What the Sermon on the Mount Actually Means for Your Monday Morning
+- The Lost Art of Sabbath: Why Rest Is a Radical Act in 2026
+- Grace Under Fire: What the Bible Says About Getting Through the Hardest Year of Your Life
 
 ## Technical
 Framework: Next.js (App Router)
