@@ -274,6 +274,17 @@ export default async function BlogPostPage({
             </div>
           </div>
         )}
+
+        {/* Faith Network Section */}
+        <div style={{ marginTop: 48, background: "#FFF9F0", border: "1px solid rgba(184,150,12,0.2)", borderRadius: 10, padding: "24px" }}>
+          <div style={{ fontSize: "0.62rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "#B8960C", marginBottom: 14, fontWeight: 700 }}>Faith Network</div>
+          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+            <a href="https://u-god.com" style={{ color: "#CC2200", textDecoration: "none", fontSize: "0.9rem" }}><strong>U-God.com</strong> — Explore all traditions: sacred texts, cross-tradition comparisons, and spiritual wisdom across 25+ religions</a>
+            <a href="https://jewsa.com" style={{ color: "#1A1A1A", textDecoration: "none", fontSize: "0.9rem" }}><strong>JewSA.com</strong> — See what Judaism teaches about faith, culture, and American Jewish identity</a>
+            <a href="https://allahican.com" style={{ color: "#1A1A1A", textDecoration: "none", fontSize: "0.9rem" }}><strong>AllahICan.com</strong> — Islamic perspectives and guidance for modern American Muslims</a>
+            <a href="https://hindusa.com" style={{ color: "#1A1A1A", textDecoration: "none", fontSize: "0.9rem" }}><strong>HindUSA.com</strong> — Hindu American culture, traditions, and community</a>
+          </div>
+        </div>
       </div>
     </div>
   );

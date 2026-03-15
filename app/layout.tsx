@@ -47,10 +47,10 @@ export const metadata: Metadata = {
 
 const NETWORK = [
   { label: "JewSA", href: "https://jewsa.com" },
-  { label: "HindUSA", href: "https://hindusa-app.vercel.app" },
-  { label: "AllahiCan", href: "https://allahican.com" },
-  { label: "WeBearish", href: "https://webearish.com" },
+  { label: "HindUSA", href: "https://hindusa.com" },
+  { label: "AllahICan", href: "https://allahican.com" },
   { label: "U-God Sacred Texts", href: "https://u-god.com" },
+  { label: "WeBearish", href: "https://webearish.com" },
   { label: "The Voice of Cash", href: "https://thevoiceofcash.com" },
 ];
 
