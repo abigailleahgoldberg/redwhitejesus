@@ -135,4 +135,19 @@ input, textarea, select {
   .occasions-grid {
     grid-template-columns: 1fr !important;
   }
+  /* FAQ minmax can cause overflow at small screens */
+  .faq-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Ensure text doesn't overflow on any screen */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
