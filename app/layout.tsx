@@ -3,6 +3,7 @@ import "./globals.css";
 import { Instrument_Serif, Space_Grotesk } from "next/font/google";
 import { CartProvider } from "../lib/cart-context";
 import Header from "../components/Header";
+import ExitIntent from "../components/ExitIntent";
 
 const instrumentSerif = Instrument_Serif({
   weight: "400",
@@ -65,6 +66,7 @@ export default function RootLayout({
           <Header />
 
           <main>{children}</main>
+          <ExitIntent />
 
           <footer
             style={{
