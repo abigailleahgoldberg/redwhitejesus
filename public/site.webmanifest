@@ -1,0 +1,10 @@
+{
+  "name": "Red White Jesus",
+  "short_name": "RWJ",
+  "description": "Faith, country, and the intersection of American Christianity with culture and politics.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#B91C1C",
+  "icons": [{ "src": "/favicon.ico", "sizes": "any", "type": "image/x-icon" }]
+}
