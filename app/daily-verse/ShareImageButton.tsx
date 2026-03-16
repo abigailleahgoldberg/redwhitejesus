@@ -80,7 +80,7 @@ async function shareVerseAsImage(verse: string, reference: string, theme: string
     const file = new File([blob], "daily-verse.png", { type: "image/png" });
     if (navigator.share && navigator.canShare({ files: [file] })) {
       try {
-        await navigator.share({ files: [file], title: reference, text: verse });
+        await navigator.share({ files: [file], title: 'Daily Verse', text: 'Hey, just was thinking of you and hope you\'re having a good day \u{1F64F}\u{2764}\uFE0F' });
       } catch {
         downloadBlob(blob);
       }
