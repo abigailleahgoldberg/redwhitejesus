@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getDailyVerse } from "../data/verses";
+import ShareImageButton from "./ShareImageButton";
 
 export const metadata: Metadata = {
   title: "Daily Bible Verse | RedWhiteJesus",
@@ -192,28 +193,35 @@ export default function DailyVersePage() {
             — {verse.reference}
           </div>
 
-          {/* Share button (client-side via inline script) */}
-          <button
-            id="copy-verse-btn"
-            onClick={undefined}
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: 8,
-              backgroundColor: "#FFFFFF",
-              border: "2px solid #E8E6E1",
-              color: "#1A1A1A",
-              padding: "12px 24px",
-              borderRadius: 6,
-              fontWeight: 600,
-              fontSize: 14,
-              cursor: "pointer",
-              letterSpacing: "0.03em",
-            }}
-          >
-            {SHARE_ICON}
-            Copy to Clipboard
-          </button>
+          {/* Action buttons */}
+          <div style={{ display: "inline-flex", gap: 12, flexWrap: "wrap", justifyContent: "center" }}>
+            <button
+              id="copy-verse-btn"
+              onClick={undefined}
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 8,
+                backgroundColor: "#FFFFFF",
+                border: "2px solid #E8E6E1",
+                color: "#1A1A1A",
+                padding: "12px 24px",
+                borderRadius: 6,
+                fontWeight: 600,
+                fontSize: 14,
+                cursor: "pointer",
+                letterSpacing: "0.03em",
+              }}
+            >
+              {SHARE_ICON}
+              Copy to Clipboard
+            </button>
+            <ShareImageButton
+              verse={verse.text}
+              reference={verse.reference}
+              theme={themeLabel}
+            />
+          </div>
         </div>
 
         {/* Scripture context note */}
