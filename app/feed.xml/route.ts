@@ -10,7 +10,7 @@ export async function GET() {
     <item>
       <title><![CDATA[${post.title}]]></title>
       <link>${siteUrl}/blog/${post.slug}</link>
-      <description><![CDATA[${post.excerpt}]]></description>
+      <description><![CDATA[${post.description}]]></description>
       <pubDate>${new Date(post.date).toUTCString()}</pubDate>
       <guid>${siteUrl}/blog/${post.slug}</guid>
     </item>`).join('');
