@@ -221,6 +221,15 @@ export default function RootLayout({
                   <a href="https://www.christianitytoday.com" target="_blank" rel="noopener noreferrer" style={{ color: "#6A6A6A", fontSize: 13, textDecoration: "none" }}>Christianity Today →</a>
                   <a href="https://www.barna.com" target="_blank" rel="noopener noreferrer" style={{ color: "#6A6A6A", fontSize: 13, textDecoration: "none" }}>Barna Research — Faith in America →</a>
                 </div>
+                <div style={{ width: "100%", display: "flex", gap: 20, flexWrap: "wrap", alignItems: "center", paddingTop: 16, borderTop: "1px solid #E8E6E1", marginTop: 16 }}>
+                  <span style={{ fontSize: 11, fontWeight: 700, color: "#B8960C", letterSpacing: "0.1em", textTransform: "uppercase" }}>Legal</span>
+                  <a href="/privacy" style={{ color: "#6A6A6A", fontSize: 13, textDecoration: "none" }}>Privacy Policy</a>
+                  <a href="/terms" style={{ color: "#6A6A6A", fontSize: 13, textDecoration: "none" }}>Terms of Service</a>
+                  <a href="/disclaimer" style={{ color: "#6A6A6A", fontSize: 13, textDecoration: "none" }}>Disclaimer</a>
+                  <a href="/returns" style={{ color: "#6A6A6A", fontSize: 13, textDecoration: "none" }}>Return Policy</a>
+                  <a href="/dmca" style={{ color: "#6A6A6A", fontSize: 13, textDecoration: "none" }}>DMCA</a>
+                  <a href="/contact" style={{ color: "#6A6A6A", fontSize: 13, textDecoration: "none" }}>Contact</a>
+                </div>
               </div>
             </div>
           </footer>
