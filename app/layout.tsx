@@ -43,6 +43,9 @@ export const metadata: Metadata = {
     type: "website",
   },
   metadataBase: new URL("https://redwhitejesus.com"),
+  alternates: {
+    canonical: 'https://redwhitejesus.com',
+  },
 };
 
 const NETWORK = [
@@ -61,6 +64,21 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${instrumentSerif.variable} ${spaceGrotesk.variable}`}>
+      <head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "RedWhiteJesus",
+          "url": "https://redwhitejesus.com",
+          "description": "Christian-American pride, culture, and gear. One Nation. Under God. Undeniably American."
+        }) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "RedWhiteJesus",
+          "url": "https://redwhitejesus.com"
+        }) }} />
+      </head>
       <body>
         <CartProvider>
           <Header />
@@ -196,6 +214,12 @@ export default function RootLayout({
                 <p style={{ color: "#8A8A8A", fontSize: 13 }}>
                   Not affiliated with any political party. Just God and country.
                 </p>
+                <div style={{ width: "100%", display: "flex", gap: 20, flexWrap: "wrap", alignItems: "center", paddingTop: 16 }}>
+                  <span style={{ fontSize: 11, fontWeight: 700, color: "#B8960C", letterSpacing: "0.1em", textTransform: "uppercase" }}>Resources</span>
+                  <a href="https://www.biblegateway.com" target="_blank" rel="noopener noreferrer" style={{ color: "#6A6A6A", fontSize: 13, textDecoration: "none" }}>BibleGateway — Scripture Online →</a>
+                  <a href="https://www.christianitytoday.com" target="_blank" rel="noopener noreferrer" style={{ color: "#6A6A6A", fontSize: 13, textDecoration: "none" }}>Christianity Today →</a>
+                  <a href="https://www.barna.com" target="_blank" rel="noopener noreferrer" style={{ color: "#6A6A6A", fontSize: 13, textDecoration: "none" }}>Barna Research — Faith in America →</a>
+                </div>
               </div>
             </div>
           </footer>
