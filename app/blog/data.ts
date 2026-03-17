@@ -1063,4 +1063,280 @@ None of it removes the difficulty. All of it offers company in it. And for most 
 - [The Problem of Pain — C.S. Lewis](https://www.amazon.com/s?k=the+problem+of+pain+lewis&tag=redwhitejesus-20) — A rigorous engagement with why a good God allows suffering
 - [When God Weeps — Joni Eareckson Tada](https://www.amazon.com/s?k=when+god+weeps+tada&tag=redwhitejesus-20) — Written from inside severe disability`,
   },
+  {
+    slug: "history-of-easter-ancient-traditions-to-modern-celebration",
+    title: "The History of Easter: From Ancient Traditions to Modern Celebration",
+    description: "Easter is the most important day in Christianity, but its traditions have been shaped by centuries of history, culture, and adaptation. Here is where it all comes from.",
+    category: "History",
+    date: "2026-03-17",
+    content: `Easter is a paradox: the most theologically serious day on the Christian calendar is also the one most associated with egg hunts and chocolate bunnies. Understanding how a holiday commemorating the resurrection of Jesus Christ acquired these trappings requires tracing the history of how Christianity spread across cultures that already had their own spring traditions.
+
+**The Biblical Core**
+
+The resurrection narrative appears in all four Gospels, with Jesus appearing to his disciples over forty days before ascending into heaven. For Christians, this event is not peripheral to the faith — it is its foundation. Without the resurrection, Paul wrote to the Corinthians, "your faith is futile." Easter is the day the Christian story hinges on.
+
+The early church celebrated the resurrection annually, initially at the same time as Passover (from which the event emerged historically), then increasingly on the Sunday following the first full moon after the spring equinox. The Council of Nicaea in 325 CE standardized the calculation, which is why Easter moves each year.
+
+**How Easter Got Its Name**
+
+The English word "Easter" almost certainly derives from "Eostre," an Anglo-Saxon spring goddess mentioned by the Venerable Bede in the eighth century. As Christianity spread through northern Europe, it absorbed the linguistic framework of existing spring celebrations. Most European languages use a form of "Pascha," derived from the Hebrew "Pesach" (Passover), which is more historically accurate to the holiday's origins.
+
+**The Egg Tradition**
+
+Eggs appear in Easter traditions across cultures for a reason rooted in pre-Christian symbolism: the egg represents new life. Early Christians adapted this symbol to represent the resurrection — the tomb as egg, new life emerging from apparent death. The practice of giving decorated eggs at Easter was recorded in medieval Europe and formalized into the elaborate art of Pysanky in Eastern European Christian traditions.
+
+The Easter egg hunt, as a secular tradition, developed primarily in the nineteenth century. German immigrants brought the tradition of the Easter Hare (later Easter Bunny) to America, where it combined with egg-hunting games to create the holiday format familiar to American children today.
+
+**Holy Week: The Days That Lead to Easter**
+
+Easter does not arrive alone. Holy Week begins with Palm Sunday, commemorating Jesus's entry into Jerusalem. Maundy Thursday recalls the Last Supper and Jesus's washing of his disciples' feet. Good Friday marks the crucifixion. Holy Saturday is the vigil. Easter Sunday is the culmination.
+
+The Easter Vigil, held on Saturday night into Sunday morning, is one of the most ancient and dramatic liturgical events in Christianity. It begins in darkness, moves through the lighting of the Paschal candle, includes readings from the entire sweep of salvation history, and culminates in the baptism of new members of the faith. For many Christian traditions, this is the most important service of the year.
+
+**Easter Around the World**
+
+How Easter is celebrated varies dramatically across the global Christian community. In Greece and Russia, Orthodox Christians exchange "Christos Anesti" (Christ is risen) and the response "Alithos Anesti" (Truly he is risen), kiss each other three times, and light candles at midnight services. In the Philippines, Semana Santa involves elaborate processions and, in some communities, voluntary crucifixion reenactments. In Ethiopia, Fasika (Ethiopian Easter, celebrated according to the Ethiopian calendar) involves weeks of fasting followed by massive communal celebration.
+
+In the United States, Easter traditions range from solemn sunrise services to elaborate brunches to secular egg hunts that bear little connection to the theological center of the holiday. American Easter contains multitudes.
+
+**The Meaning Underneath the Traditions**
+
+The egg hunts and the chocolate bunnies and the new Easter outfits are not the point. They are cultural accretions around a theological core that is, for Christians, the most significant day of the year. The resurrection, if true, changes everything. If it is not true, Paul said, "we are of all people most to be pitied."
+
+Easter asks Christians to hold that claim seriously, year after year, and to find it not merely believable but life-changing. The traditions that have accumulated around it are the way cultures mark what they consider significant. They are worth understanding, even by those who do not share the faith that gives the day its weight.
+
+---
+
+**Christian Living Books**
+
+- [Mere Christianity — C.S. Lewis](https://www.amazon.com/s?k=mere+christianity+cs+lewis&tag=redwhitejesus-20) — The most compelling case for Christian faith in modern English
+- [The Case for the Resurrection of Jesus](https://www.amazon.com/s?k=case+for+resurrection+of+jesus&tag=redwhitejesus-20) — Historical evidence examined with rigor
+- [The Jesus I Never Knew — Philip Yancey](https://www.amazon.com/s?k=the+jesus+i+never+knew+yancey&tag=redwhitejesus-20) — A fresh look at the life of Christ`,
+  },
+  {
+    slug: "christian-hymns-that-shaped-american-history",
+    title: "Christian Hymns That Shaped American History",
+    description: "From 'Amazing Grace' to 'Battle Hymn of the Republic,' Christian hymns have been woven into the fabric of American life, protest, and identity for centuries.",
+    category: "History",
+    date: "2026-03-17",
+    content: `Music has always been central to Christian worship, and in America, the hymns of the church have repeatedly escaped the sanctuary to shape the broader national story. From the abolitionist movement to the civil rights era, from presidential inaugurations to military funerals, Christian hymns have provided the soundtrack for some of the most significant moments in American history.
+
+**Amazing Grace: The Most Traveled Hymn in America**
+
+John Newton wrote "Amazing Grace" in 1772, drawing on his experience as a reformed slave trader who had undergone a dramatic conversion to Christianity. The hymn's central metaphor — grace as the undeserved gift that redeems the unworthy — was deeply personal for Newton, who described himself as "a wretch" saved by God's mercy.
+
+The hymn crossed the Atlantic early and found particular resonance in American Protestant culture. By the nineteenth century, it had become a standard of revival meetings and camp meetings across the frontier. The version most Americans know, with the familiar pentatonic melody, developed in American shape-note singing traditions and has been its melody ever since.
+
+"Amazing Grace" became an anthem of the abolitionist movement, sung by those who understood its language of liberation from bondage with double meaning. After the Civil War, it was adopted by African American church traditions where it carries a weight of historical meaning that no purely musical analysis can capture. In contemporary American culture, it appears at funerals, memorial services, and moments of national grief with a consistency that speaks to its deep roots.
+
+**Battle Hymn of the Republic: War and Theology**
+
+Julia Ward Howe wrote "Battle Hymn of the Republic" in 1861, setting new words to the tune of "John Brown's Body." She wrote it after visiting Union army camps and feeling that the soldiers needed words worthy of their cause. The result is one of the most theologically dense songs in American popular culture.
+
+The hymn is saturated in apocalyptic Biblical imagery: the grapes of wrath, the fateful lightning of the terrible swift sword, the Day of Judgment. Howe framed the Union cause in explicitly theological terms — God's truth marching on through history toward justice. The song became the unofficial anthem of the Union army and the Republican Party for decades.
+
+The hymn has been repurposed across political contexts since, but its core assertion — that history has a moral direction and that those who fight for justice are participating in something larger than themselves — has made it a recurring choice at moments of American moral reckoning.
+
+**Swing Low, Sweet Chariot: The Hymn That Endured**
+
+The African American spiritual tradition produced some of the most theologically rich and historically significant sacred music in American history. "Swing Low, Sweet Chariot," with its imagery of the Jordan River and the chariot coming to carry the faithful home, was sung by enslaved people who encoded in the language of heaven a very earthly hope for liberation.
+
+The "chariot" in many spirituals is understood to refer to the Underground Railroad. The Jordan River is the Ohio River, the border between slave states and free states. The spiritual tradition turned Biblical imagery into a coded language of resistance and hope that sustained communities under conditions of extreme oppression.
+
+**We Shall Overcome: The March Hymn**
+
+"We Shall Overcome" has origins in gospel music — specifically in the hymn "I'll Overcome Someday" by Charles Tindley — and was transformed into the anthem of the Civil Rights Movement through the labor movement and Black church tradition. Pete Seeger helped spread the song in its familiar form, and it became inseparable from the marches and sit-ins and freedom rides of the 1950s and 1960s.
+
+President Lyndon Johnson referenced the song by title in his address to Congress in 1965 following the violence at Selma — a president invoking a protest hymn to call for justice. The moment captured something about how deeply this music had penetrated American public consciousness.
+
+**The Living Tradition**
+
+The relationship between Christian hymnody and American public life continues. "How Great Thou Art" and "Great Is Thy Faithfulness" appear at major evangelical gatherings and political events. Contemporary Christian worship music has produced songs that cross into mainstream culture. The tradition of sacred music informing public life, of theological language giving shape to civic experience, is not a historical relic. It is an ongoing feature of American cultural life.
+
+Understanding these hymns is understanding part of American history. The faith that produced them was not peripheral to the national story. It was woven through it.
+
+---
+
+**Christian Living Books**
+
+- [Mere Christianity — C.S. Lewis](https://www.amazon.com/s?k=mere+christianity+cs+lewis&tag=redwhitejesus-20) — The most compelling case for Christian faith in modern English
+- [The Singing Life of Birds](https://www.amazon.com/s?k=american+hymn+history+sacred+music&tag=redwhitejesus-20) — Sacred music in American culture
+- [Amazing Grace: The Story of America's Most Beloved Song](https://www.amazon.com/s?k=amazing+grace+history+book&tag=redwhitejesus-20) — The full history of the hymn`,
+  },
+  {
+    slug: "faith-and-family-passing-down-christian-values",
+    title: "Faith and Family: How to Pass Down Christian Values in a Secular World",
+    description: "Raising children with a living faith in an increasingly secular culture is one of the central challenges facing Christian families today. Here is what actually works.",
+    category: "Community",
+    date: "2026-03-17",
+    content: `Every generation of Christian parents has faced the challenge of transmitting faith to the next generation in a world that does not share it. What has changed in the twenty-first century is the pace and pervasiveness of the secular alternative. The culture that surrounds Christian families in 2026 is not merely indifferent to Christian faith — it often actively presents competing frameworks for meaning, identity, and ethics through screens that children carry in their pockets.
+
+This is a real challenge. It is not a fatal one. Christian families have passed faith to their children across far more hostile historical circumstances than suburban America in 2026. The tools that worked then still work now, supplemented by some approaches specific to the current moment.
+
+**The Research on What Works**
+
+The Sticky Faith research from Fuller Youth Institute and similar studies have identified factors that correlate strongly with young people maintaining faith into adulthood. The findings are consistent: faith that sticks is relational, practiced, and integrated rather than compartmentalized.
+
+Young people who maintain faith tend to have parents who discuss faith authentically at home, not just at church. They tend to have meaningful relationships with adult Christians outside their immediate family — mentors, Sunday school teachers, youth leaders who are genuinely invested in them. They tend to have opportunities to serve others and to grapple with real questions about faith rather than being shielded from doubt.
+
+The "Sunday morning only" model of faith transmission does not produce robust faith. Faith that is treated as a separate compartment of life, different from school and sports and friendships, tends to be discarded when compartment-sorting becomes necessary.
+
+**Ordinary Rhythms Matter More Than Special Events**
+
+The Hebrew concept of deuteronomy 6:7 — teaching your children about God "when you sit at home and when you walk along the road, when you lie down and when you get up" — describes an approach to faith formation that is woven into daily life rather than scheduled into it.
+
+Family mealtimes, bedtime routines, responses to daily events, the way parents talk about their own faith struggles and convictions — these ordinary moments accumulate into a child's understanding of what faith actually is. A parent who speaks honestly about their own prayer life, their own doubts and experiences of God, their own attempts to live out their values, models faith as a real thing rather than a performed one.
+
+The church calendar provides a natural structure for faith formation. Advent, Christmas, Lent, Easter — moving through these seasons with intention, with corresponding practices at home, creates a rhythm that makes faith feel embedded in time rather than occasional. Light an Advent wreath. Read the passion narrative on Good Friday. Make Easter Sunday feel different from every other Sunday.
+
+**Talking About Faith Without Turning Conversations Into Sermons**
+
+One of the most consistent findings in faith formation research is that parents underestimate how much their own faith witness matters and overestimate how much formal religious instruction matters. Children who hear their parents talk naturally about prayer, about God's role in daily decisions, about how faith informs their responses to difficulty — these children grow up with a picture of faith as lived rather than performed.
+
+This requires vulnerability. It is easier to sign children up for Sunday school than to say "I've been struggling with this situation and I've been praying about it and here's what I'm learning." The first approach outsources faith formation. The second models it.
+
+Questions from children about faith, including hard ones, deserve honest engagement rather than quick reassurance. "I don't know" is a legitimate and faithful answer. "That's a hard question that Christians have wrestled with for centuries — here's what some of them have thought" is even better. Children who learn that faith can coexist with uncertainty are better equipped than those who learn that uncertainty is a threat to faith.
+
+**Community Is Not Optional**
+
+Individual families cannot transmit faith in isolation. The research is clear: young people who remain in faith tend to be embedded in faith communities where they are known, welcomed, and engaged in service. The church is not a resource for individuals to use; it is a community that forms individuals by including them.
+
+This means investing in the faith community beyond Sunday morning attendance. Small groups, service projects, intergenerational relationships, youth programs that take young people seriously rather than entertaining them — these are the structures that do the formation work that individual families cannot do alone.
+
+**The Long Game**
+
+Faith formation is not a project that concludes when a child reaches eighteen. Many young adults who appear to have left the faith return to it in their twenties and thirties, often when they face challenges that require resources deeper than secular culture can provide. The seeds planted in childhood matter even when they don't immediately germinate.
+
+The goal is not to produce children who perform the right religious behaviors. The goal is to introduce them to a living God and a living community and trust that encounter to do its own work over a lifetime.
+
+---
+
+**Christian Living Books**
+
+- [Sticky Faith — Kara Powell and Chap Clark](https://www.amazon.com/s?k=sticky+faith+kara+powell&tag=redwhitejesus-20) — Research-based guide to raising kids who keep faith
+- [The Tech-Wise Family — Andy Crouch](https://www.amazon.com/s?k=tech-wise+family+andy+crouch&tag=redwhitejesus-20) — Navigating screens and faith formation
+- [Deuteronomy: Interpretation Commentary](https://www.amazon.com/s?k=deuteronomy+commentary+faith+formation&tag=redwhitejesus-20) — Deep dive on the original faith formation text`,
+  },
+  {
+    slug: "sermon-on-the-mount-explained-money-power-enemies",
+    title: "The Sermon on the Mount Explained: What Jesus Actually Said About Money, Power, and Enemies",
+    description: "The Sermon on the Mount is the most famous speech in human history. Most people have never actually read it. Here is what it says and why it is still radical.",
+    category: "Religion",
+    date: "2026-03-17",
+    content: `The Sermon on the Mount, recorded in Matthew chapters 5 through 7, is the longest continuous teaching of Jesus in the Gospels. It contains the Beatitudes, the Lord's Prayer, the injunction to turn the other cheek, and some of the most quoted and least understood phrases in Western civilization. Nearly two thousand years after it was delivered on a hillside in Galilee, it remains one of the most demanding ethical documents in human history.
+
+Most people who cite it have not read it carefully. It is worth reading carefully.
+
+**The Beatitudes: Blessing the Wrong People**
+
+The sermon opens with the Beatitudes, a series of "blessed are" statements that systematically reverse the expectations of Jesus's audience about who God favors.
+
+"Blessed are the poor in spirit." Not the confident or the powerful. The poor in spirit — those who know their own spiritual poverty.
+
+"Blessed are the meek, for they shall inherit the earth." In a world organized around conquest and dominance, this is a direct challenge to the operating assumptions of Roman power.
+
+"Blessed are the peacemakers." Not the warriors. The peacemakers.
+
+"Blessed are those who are persecuted for righteousness' sake." The people being hunted by the powerful are, according to Jesus, the ones in whom God takes delight.
+
+The Beatitudes are not descriptions of how to be successful in the world. They are descriptions of the kind of person God values, and that person looks nothing like the person most human societies reward.
+
+**On Anger, Lust, and Divorce: The Intensification of the Law**
+
+Jesus does something unusual in the Sermon on the Mount: he takes the existing Mosaic law and makes it more demanding, not less. "You have heard that it was said, 'Do not murder.' But I say to you that everyone who is angry with his brother will be liable to judgment."
+
+The external behavior is not enough. The internal state matters. Lust is addressed the same way: looking at someone with desire is treated with the same seriousness as the physical act. This is not comfortable teaching. It is teaching designed to move the moral conversation from behavior to character.
+
+**On Money: You Cannot Serve Two Masters**
+
+Jesus is direct about wealth: "You cannot serve God and money." The Greek word translated "money" is "mammon," and its placement as a direct competitor to God is intentional.
+
+"Do not lay up for yourselves treasures on earth, where moth and rust destroy and where thieves break in and steal, but lay up for yourselves treasures in heaven."
+
+This is not counsel against prudent saving. It is counsel against the orientation of life around accumulation. The person whose primary concern is building wealth has, Jesus argues, their priorities fundamentally reversed. This teaching has been uncomfortable for wealthy Christians in every generation, which is why it is so frequently softened or contextualized into meaninglessness.
+
+**On Enemies: The Most Radical Teaching**
+
+"You have heard that it was said, 'You shall love your neighbor and hate your enemy.' But I say to you, Love your enemies and pray for those who persecute you."
+
+This is the teaching that most clearly distinguishes Jesus's ethics from every other ethical system in the ancient world. Most ethical frameworks extend moral consideration to in-group members. Jesus explicitly extends it to enemies. The motivation he gives is theological: God sends rain on the just and unjust alike. Human beings who love only those who love them are, Jesus says, doing nothing more than what tax collectors (the moral low bar of his society) do.
+
+This teaching has been used to counsel passive submission to abuse, which is a misreading. It has also been largely ignored by Christians who found it too demanding, which is a more common response. What it actually demands is the radical reorientation of the human tendency to divide humanity into those who deserve our care and those who do not.
+
+**On Prayer: The Lord's Prayer in Context**
+
+The Lord's Prayer appears in the Sermon on the Mount as an example of how to pray, set against the warning against "babbling" and performing prayer for public approval. "Our Father in heaven" — the address itself is striking, establishing a familial relationship between humans and God. "Your kingdom come, your will be done, on earth as it is in heaven" — the prayer is for transformation of this world, not escape from it.
+
+"Forgive us our debts, as we also have forgiven our debtors" — the conditionality here is significant. The forgiveness requested is linked to the forgiveness given. This is not incidental to the prayer; it is its ethical center.
+
+**The Conclusion: Build on Rock**
+
+The sermon ends with the parable of the wise and foolish builders. The one who hears these words and acts on them builds on rock. The one who hears and does not act builds on sand.
+
+The emphasis on action is characteristic of Jesus's teaching throughout. The Sermon on the Mount is not a system of beliefs to hold but a way of life to live. Two thousand years of Christian theology have sometimes obscured this. The text itself is clear.
+
+---
+
+**Christian Living Books**
+
+- [The Sermon on the Mount — Dallas Willard](https://www.amazon.com/s?k=the+divine+conspiracy+dallas+willard&tag=redwhitejesus-20) — The most thorough modern commentary on this text
+- [Cost of Discipleship — Dietrich Bonhoeffer](https://www.amazon.com/s?k=cost+of+discipleship+bonhoeffer&tag=redwhitejesus-20) — Written by a man who paid the price for taking it seriously
+- [Sermon on the Mount — Scot McKnight](https://www.amazon.com/s?k=sermon+on+the+mount+mcknight&tag=redwhitejesus-20) — Accessible scholarly commentary`,
+  },
+  {
+    slug: "christmas-around-the-world-how-christians-celebrate-differently",
+    title: "Christmas Around the World: How Christians Celebrate Differently Across Cultures",
+    description: "Christmas is a global holiday, but how it is celebrated varies dramatically across cultures and Christian traditions. Here is what Christmas looks like around the world.",
+    category: "Culture",
+    date: "2026-03-17",
+    content: `Christmas is celebrated by approximately 2.4 billion Christians worldwide, but the way they celebrate it is remarkably diverse. The holiday that in the United States is synonymous with decorated trees, gift exchanges, and a secular jolly figure in red bears little resemblance to Christmas in Ethiopia, the Philippines, or Mexico. Understanding this diversity illuminates both the global reach of Christianity and the way faith traditions adapt to and shape the cultures they inhabit.
+
+**Ethiopia: Genna and the Ancient Church**
+
+The Ethiopian Orthodox Tewahedo Church is one of the oldest Christian churches in the world, tracing its history to the fourth century. Christmas in Ethiopia is called Genna and is celebrated on January 7th according to the Ethiopian calendar. The celebration is primarily liturgical: churches fill before dawn for a three-hour service, with the celebration moving from outside the church to the inner ring to the inner sanctuary in a processional pattern that reenacts the movement toward the holy.
+
+Ethiopian Christmas is not primarily a gift-giving holiday. The day is spent in prayer, community, and feasting. A traditional Christmas meal includes injera (the spongy flatbread central to Ethiopian cuisine) with various stews. The secular gift-exchange culture associated with Christmas in Western countries has little presence in the Ethiopian tradition.
+
+**The Philippines: Simbang Gabi and the Longest Christmas**
+
+The Philippines is the most Catholic country in Asia and home to one of the most elaborate Christmas traditions in the world. Filipino Christmas begins on September 16th — when radio stations start playing Christmas music — and continues through January 6th. This is not hyperbole. The Christmas season in the Philippines is genuinely the longest in the world.
+
+The central tradition is Simbang Gabi, a nine-day series of pre-dawn masses held from December 16th through December 24th. Attending all nine is considered a form of devotion, and those who complete the novena are said to have a wish granted. The masses are followed by street food — puto bumbong (purple rice cakes), bibingka (rice cakes with coconut) — that are inseparable from the season.
+
+Noche Buena, the Christmas Eve feast, is the most important meal of the year for Filipino families. It is served at midnight after Misa de Gallo (the Christmas Eve mass) and typically includes lechon (roast pig), ham, pancit (noodles for long life), and queso de bola (a round Edam cheese that appears in stores only during Christmas season).
+
+**Mexico: Las Posadas and the Piñata**
+
+Las Posadas is a nine-night celebration beginning December 16th that reenacts the journey of Mary and Joseph seeking shelter in Bethlehem. Participants divide into two groups: those playing the pilgrims (Mary and Joseph) and those playing the innkeepers. The pilgrims go from house to house singing a traditional song requesting shelter and being turned away until finally admitted at the final house, where a party begins.
+
+The piñata, now common in American children's parties, has its origins in Las Posadas tradition. The traditional seven-pointed star piñata represents the seven deadly sins; breaking it symbolizes overcoming temptation.
+
+Mexican Christmas culminates in Nochebuena on December 24th, which is the primary celebration day. December 25th is for visiting family and recovering from the night before. Gift-giving in the traditional Mexican Catholic context happens on January 6th (Three Kings Day), when children receive gifts from the Magi rather than from Santa Claus.
+
+**Germany: The Origin of Many Traditions**
+
+Many Christmas traditions now considered universal in the English-speaking world originated in Germany. The Christmas tree, the Advent calendar, the Advent wreath — all German in origin. Martin Luther is credited (probably apocryphally) with decorating a tree with candles to show his children how the stars looked through the forest. The tradition spread from German culture to England through Prince Albert, Queen Victoria's German husband, and from England to America.
+
+The German Christmas market (Weihnachtsmarkt) tradition, which has been exported globally, dates to the late Middle Ages. These markets, held in town squares during Advent, sell crafts, food, and mulled wine (Glühwein) and serve as community gathering spaces in the weeks before Christmas.
+
+**Russia and Eastern Europe: Orthodox Christmas**
+
+Orthodox Christianity uses the Julian calendar for calculating Christmas, placing it on January 7th in the Gregorian calendar. Russian Orthodox Christmas follows a period of fasting and is celebrated with a liturgy that is one of the most elaborate in any Christian tradition. The service typically lasts through the night.
+
+In many Eastern European traditions, Christmas Eve is more significant than Christmas Day. Twelve meatless dishes are served on Christmas Eve — one for each apostle — and an empty place is set at the table for the spirits of departed ancestors.
+
+**What It Tells Us**
+
+The diversity of Christmas celebration across Christian cultures is not evidence of incoherence. It is evidence of Christianity's remarkable capacity to take root in different cultural soil while maintaining its theological center: the incarnation of God in Jesus Christ. The manger in Bethlehem is the constant. The manger in every other respect looks different in Addis Ababa than in Mexico City than in Manila than in Dresden.
+
+That diversity is worth knowing and celebrating. The church is genuinely global, and the ways different cultures have found to honor the same event illuminate both the universality of the message and the particularity of every human culture that has received it.
+
+---
+
+**Christian Living Books**
+
+- [Mere Christianity — C.S. Lewis](https://www.amazon.com/s?k=mere+christianity+cs+lewis&tag=redwhitejesus-20) — The most compelling case for Christian faith in modern English
+- [God Is Not One — Stephen Prothero](https://www.amazon.com/s?k=god+is+not+one+prothero&tag=redwhitejesus-20) — Understanding world religious diversity
+- [The Global Church — Graham Hill](https://www.amazon.com/s?k=global+church+christianity+worldwide&tag=redwhitejesus-20) — Christianity's global story`,
+  }
 ];

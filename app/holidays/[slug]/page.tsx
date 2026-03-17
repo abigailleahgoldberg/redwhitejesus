@@ -61,6 +61,18 @@ export default async function HolidayPage({ params }: Props) {
 
   const related = getRelatedHolidays(slug, 4);
 
+  const holidayDates: Record<string, {startDate: string; endDate: string}> = {
+    "christmas": {startDate:"2026-12-25",endDate:"2026-12-26"},
+    "easter": {startDate:"2026-04-05",endDate:"2026-04-06"},
+    "good-friday": {startDate:"2026-04-03",endDate:"2026-04-03"},
+    "ash-wednesday": {startDate:"2026-02-18",endDate:"2026-02-18"},
+    "pentecost": {startDate:"2026-05-24",endDate:"2026-05-24"},
+    "advent": {startDate:"2026-11-29",endDate:"2026-12-24"},
+    "epiphany": {startDate:"2026-01-06",endDate:"2026-01-06"},
+    "palm-sunday": {startDate:"2026-03-29",endDate:"2026-03-29"},
+  };
+  const dates = holidayDates[holiday.slug] || {startDate:"2026-12-25",endDate:"2026-12-26"};
+
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Event",
@@ -71,6 +83,11 @@ export default async function HolidayPage({ params }: Props) {
       "@type": "Organization",
       name: "Christian Church",
     },
+    startDate: dates.startDate,
+    endDate: dates.endDate,
+    location: {"@type":"VirtualLocation","url":`https://redwhitejesus.com/holidays/${holiday.slug}`},
+    eventAttendanceMode: "https://schema.org/OnlineEventAttendanceMode",
+    eventStatus: "https://schema.org/EventScheduled",
   };
 
   return (
