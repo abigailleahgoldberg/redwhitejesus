@@ -7,7 +7,46 @@ export interface BlogPost {
   content: string;
 }
 
-export const posts: BlogPost[] = [
+export const posts: BlogPost[
+  {
+    slug: "holy-week-2026-what-each-day-means",
+    title: "Holy Week 2026: What Each Day From Palm Sunday to Easter Actually Means",
+    description: "Holy Week is the most sacred week in the Christian calendar. Here is what each day commemorates, from the triumphant entry into Jerusalem to the resurrection.",
+    category: "Religion",
+    date: "2026-03-23",
+    content: `Holy Week is the week before Easter and it is the most significant week in the Christian liturgical calendar. Each day commemorates a specific event in the final days of Jesus Christ\'s life, death, and resurrection. Understanding what each day marks helps the week become what it is meant to be: not a series of customs but a structured movement toward the central claim of the Christian faith.
+
+Palm Sunday opens the week. This is the day that commemorates the entry of Jesus into Jerusalem, riding on a donkey while crowds spread palm branches and cloaks on the road before him and shouted Hosanna. The scene is a moment of triumph that carries the shadow of what follows. The same city that welcomed him on Sunday would call for his crucifixion by Friday. Palm Sunday holds both things at once and asks the worshipper to hold them too.
+
+Monday through Wednesday of Holy Week are called the Days of Teaching in many traditions. Jesus taught in the Temple, confronted the religious authorities, and prepared his disciples. Wednesday is sometimes called Spy Wednesday, commemorating the agreement between Judas and the chief priests to betray Jesus.
+
+Holy Thursday is Maundy Thursday. The word maundy comes from the Latin mandatum, meaning commandment, which refers to the commandment Jesus gave at the Last Supper: love one another as I have loved you. Maundy Thursday commemorates the Last Supper, the institution of the Eucharist, and Jesus\'s washing of the disciples\' feet. Many churches hold a service in the evening that includes foot washing, a re-enactment of an act of profound humility by the one who came to serve rather than to be served.
+
+Good Friday is the commemoration of the crucifixion. The name is not straightforward in any obvious sense. The most common explanation is that good here is an archaic usage meaning holy or sanctified. What is remembered on Good Friday is the death of Jesus on the cross, an execution by the Roman state at the insistence of religious leaders who considered him a threat. Many churches hold a service from noon to three in the afternoon, corresponding to the hours Jesus hung on the cross according to the Gospel accounts. It is a day of silence, of fasting, of contemplation.
+
+Holy Saturday is the day of waiting. Jesus lies in the tomb. The disciples are scattered and afraid. The women who had followed him from Galilee watch to see where he is laid. It is the silence between death and resurrection.
+
+Easter Sunday is the day that changes everything. He is not here; he has risen. That announcement, first made to the women who came to anoint the body at the empty tomb, is the center around which the entire Christian faith turns.`
+  },
+  {
+    slug: "christian-faith-and-american-culture-finding-the-balance",
+    title: "Christian Faith and American Culture: Finding the Balance That Actually Works",
+    description: "How do you live out a genuine Christian faith in a culture that moves fast and values different things? Here is the honest conversation.",
+    category: "Culture",
+    date: "2026-03-23",
+    content: `The question of how to live as a Christian in American culture is not new and it does not have one answer. Different traditions within Christianity have answered it differently for three hundred years. What follows is not a prescription but an honest look at the tension and what people who have navigated it well seem to have in common.
+
+The tension is real. American culture in 2026 moves fast, values individual autonomy above almost everything else, measures success primarily in financial and status terms, and has a complicated relationship with institutional faith. None of that is automatically hostile to Christian belief, but none of it naturally reinforces it either. Living as a Christian in this environment requires some degree of intentionality that people living in more religiously homogeneous cultures do not have to exercise.
+
+The two failure modes are worth naming. The first is absorption, where the culture shapes the faith more than the faith shapes the engagement with the culture. The Christianity that results looks and sounds like the surrounding culture with religious vocabulary. It does not challenge, it does not cost anything, it does not produce the kind of change that the New Testament describes as the work of the gospel in a life. The second failure mode is withdrawal, where the fear of being shaped by the culture produces a bunker mentality that mistakes isolation for faithfulness. It is not the same thing.
+
+What the people who get this right tend to have in common is a clear sense of what their faith actually claims and demands, communities of practice that take those claims seriously, and genuine engagement with the world outside those communities. They are not naive about the culture. They are not afraid of it either.
+
+The Sermon on the Mount is still the most counter-cultural document in western civilization. Blessed are the meek. Blessed are the peacemakers. Love your enemies. Do good to those who hate you. Turn the other cheek. These are not compatible with the dominant values of the culture and they were not meant to be. They were meant to describe a different kind of life, lived by people who had encountered a different kind of kingdom.
+
+The balance that works is not a balance at all in the sense of equal weight on both sides. It is a clear-eyed engagement with the culture from a standpoint of faith that knows what it believes and why. That takes community. That takes formation. That takes time.`
+  },
+] = [
   {
     slug: "what-is-easter-and-why-does-it-matter",
     title: "What Is Easter and Why Does It Matter?",
