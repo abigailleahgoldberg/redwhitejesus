@@ -25,7 +25,6 @@ Easter also invites reflection on suffering, injustice, and redemption. The cros
 Easter comes as spring does. New life emerging from winter. That parallel is not incidental to the Christian imagination.`,
     date: '2026-03-24',
     category: 'Religion',
-    readTime: 6
   },
   {
     slug: 'holy-week-2026-palm-sunday-through-easter',
@@ -46,7 +45,6 @@ Churches that observe the full liturgical calendar also recognize days like Holy
 The week moves from triumph to death to resurrection. Understanding the arc helps you understand Christian hope.`,
     date: '2026-03-24',
     category: 'Religion',
-    readTime: 6
   },
   {
     slug: "holy-week-2026-what-each-day-means",
