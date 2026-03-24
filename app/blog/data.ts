@@ -48,7 +48,6 @@ The week moves from triumph to death to resurrection. Understanding the arc help
     category: 'Religion',
     readTime: 6
   },
-] = [
   {
     slug: "holy-week-2026-what-each-day-means",
     title: "Holy Week 2026: What Each Day From Palm Sunday to Easter Actually Means",
