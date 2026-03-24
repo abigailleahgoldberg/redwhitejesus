@@ -7,7 +7,7 @@ export interface BlogPost {
   content: string;
 }
 
-export const posts: BlogPost[
+export const posts: BlogPost[] = [
   {
     slug: 'easter-2026-the-resurrection-and-what-it-means',
     title: 'Easter 2026: The Resurrection and What It Means for Christian Faith Today',
