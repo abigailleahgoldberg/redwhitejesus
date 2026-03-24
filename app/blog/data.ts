@@ -9,6 +9,47 @@ export interface BlogPost {
 
 export const posts: BlogPost[
   {
+    slug: 'easter-2026-the-resurrection-and-what-it-means',
+    title: 'Easter 2026: The Resurrection and What It Means for Christian Faith Today',
+    excerpt: 'An honest reflection on the central event of Christianity and why it still matters.',
+    content: `Easter is the oldest and most important Christian holiday, but it is also the one most often outshadowed by cultural practices that have nothing to do with the religious meaning. Easter eggs and bunnies and spring dresses are fine but they are not Easter. Easter is the claim that Jesus was executed, dead for three days, and rose from the dead. Everything else in Christianity follows from whether you believe that is true or not.
+
+The Resurrection is not a metaphor for spiritual renewal or hope, though it inspired those things. It is a historical claim — that a specific person died and came back to life in bodily form. The disciples encountered Jesus alive after the crucifixion. Not in memory, not in spirit, but in person. They ate with him, touched him, and ultimately accepted that something that violated everything they understood about how the world works had actually happened.
+
+Christian theology is built on that claim. Without the Resurrection, Jesus is a good teacher who was executed for his ideas. With the Resurrection, Jesus is God incarnate who conquered death and proved the claims he made about himself and about eternal life.
+
+The meaning for contemporary Christians varies. Some Christians emphasize the physical literal Resurrection as the foundation of everything. Others emphasize the Resurrection as the event that changed the disciples from fearful people hiding behind locked doors into people willing to die for what they saw and understood. Some emphasize both.
+
+Easter also invites reflection on suffering, injustice, and redemption. The cross was a Roman execution device for criminals and slaves. Jesus was killed as a criminal under that system. The claim that resurrection follows death, that redemption follows suffering, has shaped how Christians understand injustice in the world — sometimes as something to be accepted and endured, sometimes as something to be resisted and changed.
+
+Easter comes as spring does. New life emerging from winter. That parallel is not incidental to the Christian imagination.`,
+    date: '2026-03-24',
+    category: 'Religion',
+    readTime: 6
+  },
+  {
+    slug: 'holy-week-2026-palm-sunday-through-easter',
+    title: 'Holy Week 2026: A Guide to Palm Sunday, Maundy Thursday, Good Friday, and Easter',
+    excerpt: 'Understanding the Christian calendar\'s most sacred week.',
+    content: `Holy Week is the seven days before Easter, and each day carries specific meaning and observance in Christian tradition. Understanding the week requires knowing the story and understanding why Christians mark each day differently.
+
+Palm Sunday (March 29, 2026) commemorates Jesus' entry into Jerusalem. Crowds greeted him with palm branches and shouts of praise. By the end of the week, some of those same crowds would be calling for his death. The week begins with hope and ends with death.
+
+Maundy Thursday (April 2) is when Christians remember Jesus' last meal with his disciples — the Last Supper. This is where communion or the Eucharist originates. Jesus broke bread and shared wine with instructions to remember him through this meal. The name Maundy comes from the mandate — the command to love one another that Jesus emphasized on this night.
+
+Good Friday (April 3) is the day of the crucifixion. The name is paradoxical — it is called Good Friday because of the redemption Christians see in the death, even though the day itself is marked with solemnity and mourning. Many Christians fast or fast from meat on Good Friday. Services often include the Tenebrae (service of darkness) where candles are extinguished one by one to represent the darkness of Jesus' death.
+
+Easter Sunday (April 6) is the Resurrection. Sunrise services are common because the Resurrection happened in the dawn. The day is marked with joy, celebration, and the proclamation of the Resurrection.
+
+Churches that observe the full liturgical calendar also recognize days like Holy Monday, Holy Tuesday, Wednesday of Holy Week, each commemorating different events of Jesus' final week.
+
+The week moves from triumph to death to resurrection. Understanding the arc helps you understand Christian hope.`,
+    date: '2026-03-24',
+    category: 'Religion',
+    readTime: 6
+  },
+] = [
+  {
     slug: "holy-week-2026-what-each-day-means",
     title: "Holy Week 2026: What Each Day From Palm Sunday to Easter Actually Means",
     description: "Holy Week is the most sacred week in the Christian calendar. Here is what each day commemorates, from the triumphant entry into Jerusalem to the resurrection.",
@@ -46,7 +87,6 @@ The Sermon on the Mount is still the most counter-cultural document in western c
 
 The balance that works is not a balance at all in the sense of equal weight on both sides. It is a clear-eyed engagement with the culture from a standpoint of faith that knows what it believes and why. That takes community. That takes formation. That takes time.`
   },
-] = [
   {
     slug: "what-is-easter-and-why-does-it-matter",
     title: "What Is Easter and Why Does It Matter?",
