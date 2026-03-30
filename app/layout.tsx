@@ -41,12 +41,13 @@ export const metadata: Metadata = {
     url: "https://redwhitejesus.com",
     siteName: "RedWhiteJesus",
     type: "website",
-    images: [{ url: "https://redwhitejesus.com/favicon.ico", width: 64, height: 64, alt: "RedWhiteJesus" }],
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Red White Jesus — One Nation. Under God." }],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "RedWhiteJesus -- One Nation. Under God. Undeniably American.",
     description: "Christian-American pride, culture, and gear. Blessed and well-dressed since Bethlehem.",
+    images: ["/opengraph-image"],
   },
   metadataBase: new URL("https://redwhitejesus.com"),
   alternates: {
