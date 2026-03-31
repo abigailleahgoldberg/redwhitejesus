@@ -4,6 +4,7 @@ export interface BlogPost {
   description: string;
   category: "Culture" | "History" | "Religion" | "Community";
   date: string;
+  excerpt?: string;
   content: string;
 }
 
