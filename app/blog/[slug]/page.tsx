@@ -84,8 +84,19 @@ export default async function BlogPostPage({
 
   const otherPosts = posts.filter((p) => p.slug !== slug).slice(0, 3);
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": post.title,
+    "description": post.description,
+    "datePublished": post.date,
+    "author": { "@type": "Organization", "name": "RedWhiteJesus" },
+    "publisher": { "@type": "Organization", "name": "RedWhiteJesus", "url": "https://redwhitejesus.com" }
+  };
+
   return (
     <div>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       {/* Hero */}
       <div
         style={{
