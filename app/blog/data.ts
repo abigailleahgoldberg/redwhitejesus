@@ -1417,3 +1417,205 @@ That diversity is worth knowing and celebrating. The church is genuinely global,
 - [The Global Church — Graham Hill](https://www.amazon.com/s?k=global+church+christianity+worldwide&tag=redwhitejesus-20) — Christianity's global story`,
   }
 ];
+
+const aprilPosts2026: BlogPost[] = [
+  {
+    slug: 'christian-community-digital-age',
+    title: `Christian Community in the Digital Age: How Online Faith Is Changing the Church`,
+    description: `Online Christian community has grown dramatically — but does it replace the local church? We explore what digital faith communities offer, where they fall short, and how Christians can use both well.`,
+    excerpt: `Online Christian community has grown dramatically — but does it replace the local church? We explore what digital faith communities offer, where they fall short, and how Christians can use both well.`,
+    date: '2026-04-01',
+    category: `Faith & Patriotism`,
+    content: `The church has always adapted to new communication technologies. The printing press made widespread Bible literacy possible. Radio brought sermons into homes across the country. Television created the megachurch era. Each technology changed what church looked like without destroying what church is.
+
+Digital technology — the internet, social media, streaming, podcast platforms, online community tools — is the latest chapter in that story. And it's a genuinely complicated one.
+
+## What Online Christian Community Has Given Us
+
+The growth of digital faith communities has been one of the most significant shifts in American Christianity over the past decade. And it has produced real goods.
+
+**Access for the isolated.** For Christians living in rural areas without strong local churches, for those with chronic illness or disability who can't physically attend services, for people in countries where Christian gathering is dangerous — online church has been genuinely providential. Services and sermons that were once geographically limited now reach believers everywhere.
+
+**Deepened theological formation.** The quality and quantity of Biblical teaching, theology, and spiritual formation content available online in 2026 is extraordinary. Podcasts, YouTube channels, online courses, and seminary-level content accessible to anyone with a smartphone — Christians who want to grow have more resources available than any generation before them.
+
+**Community across geography.** Online platforms have enabled Christians with niche interests, specific theological questions, or minority perspectives within their local churches to find community with others who share their situation. The Reformed Christian in a predominantly Baptist town, the liturgical Protestant in an evangelical environment, the Christian college student navigating a secular campus — these people can find each other online.
+
+**Evangelism without geography.** Digital platforms have changed what Christian witness looks like. A testimony shared on Instagram can reach someone the speaker will never meet. A podcast about faith reaches listeners the host has never spoken with. The reach of Christian witness has expanded in ways that previous generations couldn't imagine.
+
+## Where Digital Community Falls Short
+
+Against these genuine goods, honest acknowledgment of the limits is necessary.
+
+**You can't receive communion through a screen.** The Eucharist — the Lord's Supper — requires physical presence. The laying on of hands for prayer, baptism, the embodied gathering of God's people — these are things that exist in bodies, not in data. Whatever digital church offers, it cannot offer the sacramental life of the church.
+
+**Accountability is harder online.** The church's historic role as a place of accountability — where believers are known over time, where behavior outside Sunday morning is observable, where the community has the authority and the relationship to speak truth — functions poorly in digital spaces. You can curate your online presence. You can leave any community that asks hard questions. The accountability structures of local church require physical presence and genuine commitment.
+
+**Algorithms select for engagement, not formation.** The Christian content that performs best on social media platforms is not necessarily the content most useful for spiritual growth. Controversy, emotion, and simple messages get engagement; nuance, complexity, and the demanding teaching of Jesus don't optimize well. Christians who form their faith primarily through social media are almost certainly getting a diet selected by algorithmic incentives rather than by wisdom.
+
+**Digital community is often shallow.** The depth of relationship built through years of attending the same congregation — sharing meals, visiting each other during illness, mourning together at funerals, celebrating baptisms — is not replicated online. Comment section connections and Discord servers provide something, but they are not the same as being genuinely known and loved by a local body of believers over time.
+
+## What Good Digital Faith Engagement Looks Like
+
+The answer is not "avoid digital faith communities" — that ship has sailed, and the legitimate goods are real. The answer is understanding what digital tools do well and using them for those things, while being clear-eyed about what they can't replace.
+
+**Use online resources for formation, not replacement.** The best use of digital Christian content is deepening your engagement with Scripture and theology, not substituting for local church. Listen to the podcast that helps you understand Ephesians; go to the church where Ephesians is preached and community forms around that teaching.
+
+**Choose discernment over consumption.** The volume of Christian content available online requires discernment. Not every viral Christian personality is a sound teacher. The fact that someone has 500,000 followers and quotes Scripture fluently doesn't mean they're teaching well. Read broadly. Check against Scripture. Pay attention to what your trusted community of local believers says.
+
+**Use digital platforms for witness, not validation.** Social media used primarily to find people who agree with you will narrow your world. Social media used to share genuine faith with genuine questions and genuine complexity is a form of witness. The difference is orientation: inward (to be affirmed) versus outward (to be present with others).
+
+**Don't let digital access substitute for embodied commitment.** The convenience of streaming church from your couch is real, but convenience is not one of the virtues the New Testament names as essential to Christian life. Commitment, sacrifice, presence, accountability — these develop through the friction of showing up to a local body of believers even when it's inconvenient.
+
+## The Church That Uses Both Well
+
+The congregations that are navigating this best are the ones that use digital tools to extend the local church's presence rather than to replace it — streaming for those who can't physically attend, online community that supplements rather than substitutes for in-person relationships, social media presence that invites people into the local church rather than providing an alternative to it.
+
+The church is the body of Christ — an embodied reality. The digital tools are windows, not walls. The question is whether you're using the window to see the outside, or using it to avoid going there.
+
+---
+
+*Join the Red White Jesus community — online and in the world. [Start here](/community).*`,
+  },
+  {
+    slug: 'faith-patriotism-christian-american-2026',
+    title: `Faith and Patriotism: What It Means to Be a Christian American in 2026`,
+    description: `What does it mean to be a Christian American in 2026? As the relationship between faith and national identity grows more complicated, we explore what genuine Christian patriotism looks like.`,
+    excerpt: `What does it mean to be a Christian American in 2026? As the relationship between faith and national identity grows more complicated, we explore what genuine Christian patriotism looks like.`,
+    date: '2026-04-01',
+    category: `Faith & Patriotism`,
+    content: `This question — what it means to be both a committed Christian and a committed American — has never been more complicated or more important to think through carefully.
+
+The easy version of Christian patriotism has always been available: God blessed America, America is a Christian nation, loving your country and loving God are the same thing, wrapped in a flag and a cross. That version has a long history in American public life, and it has real appeal.
+
+But Christians who have thought carefully about their faith know it's more complicated than that. And in 2026, with the relationship between evangelical Christianity and partisan politics at historically high levels of entanglement, the question of what genuine Christian patriotism looks like — as distinct from religious nationalism — deserves honest examination.
+
+## What the Faith Actually Teaches About Nations
+
+Christianity is not a nationalist religion. That's not a political statement — it's a theological one.
+
+The New Testament was written in and to a diverse community of Jewish and Gentile believers scattered across the Roman Empire. The early church was explicitly transnational: "There is neither Jew nor Greek, there is neither slave nor free, there is no male and female, for you are all one in Christ Jesus" (Galatians 3:28). The church's primary identity was in Christ, not in empire or ethnicity.
+
+The book of Revelation, written to churches experiencing Roman persecution, is pointedly skeptical of imperial power — describing Rome as Babylon, warning against the seductions of empire. The prophetic tradition throughout Scripture is consistently critical of nations, including Israel, when they depart from justice.
+
+This doesn't make patriotism un-Christian. It makes uncritical patriotism — love of country without the capacity for prophetic critique — something less than fully Christian. The Christian who loves America as a child loves a parent — with genuine affection, with pride in what it has achieved, but with the capacity for honest acknowledgment of its failures and the moral courage to say so — is practicing something more mature than flag-waving.
+
+## The American Experiment: What Christians Can Genuinely Celebrate
+
+There are things about American history and American ideals that Christians have genuine reason to celebrate.
+
+The principle that human beings possess inherent dignity and rights — articulated in the Declaration of Independence as God-given — echoes a profoundly Christian understanding of human worth. The insistence that government does not grant rights but recognizes pre-existing ones is, in the American founding framework, an essentially theistic claim.
+
+Religious freedom — the First Amendment protection that allows Christian communities to gather, worship, preach, and organize without government interference — is both a distinctively American gift and one that Christians should value and defend for all people of faith, not just their own.
+
+The American tradition of civil society — the voluntary associations, churches, charities, and community organizations that Alexis de Tocqueville identified as the democratic republic's real infrastructure — is a tradition that Christian communities helped build and sustain, and that reflects the Christian understanding of human beings as fundamentally relational.
+
+These are genuine contributions and genuine ideals worth honoring.
+
+## Where the Tension Lives
+
+Christian patriotism that doesn't include honest acknowledgment of America's failures is not mature faith. It's something closer to idolatry.
+
+The chattel slavery that the nation's economy was built on. The displacement and destruction of Indigenous peoples. The exclusion of women, people of color, and others from the promise of "all men are created equal" for most of American history. The ongoing gap between American ideals and American practice in matters of justice, equality, and care for the vulnerable.
+
+A Christian who reads the prophets, who takes seriously Jesus's teaching about the poor and the marginalized, cannot look at this history without the dual conviction: this nation, at its best, has aspired to something genuinely good; and this nation, at its worst, has done things that the faith explicitly condemns.
+
+Holding both of those truths is the mark of mature Christian patriotism. Not "America right or wrong." Not "America is uniquely corrupt." But: we love this country, and we love it enough to hold it accountable to its own best ideals.
+
+## The 2026 Question
+
+The most pressing question for Christian Americans in 2026 is not whether to love their country. Of course they do. The question is: when faith and cultural-political Christianity diverge, which one governs?
+
+When the cause celebrated as "Christian" in the political arena involves policies that conflict with the Sermon on the Mount — that prioritize the powerful over the vulnerable, that demean rather than welcome the stranger, that choose national interest over the demands of human dignity — the Christian is called to ask hard questions.
+
+That's not a political statement of left or right. The prophetic tradition evaluates every political arrangement by the same standard: how does it treat the poor, the widow, the orphan, the stranger? That standard is unsparing and non-partisan.
+
+Christian patriotism in 2026 means loving America with the kind of love that tells the truth — that celebrates genuine greatness and confronts genuine failure, that holds the nation's ideals up as a standard and insists on closing the gap between them and reality.
+
+That's harder than flag-waving. It's also more faithful.
+
+---
+
+*Explore the intersection of Christian faith and American life at [Red White Jesus](/community).*`,
+  },
+  {
+    slug: 'sermon-on-mount-modern-applications',
+    title: `The Sermon on the Mount in Modern Life: Practical Applications for Today`,
+    description: `The Sermon on the Mount is the most radical piece of practical ethics in history. Here's how its core teachings apply to the way we actually live and work in 2026.`,
+    excerpt: `The Sermon on the Mount is the most radical piece of practical ethics in history. Here's how its core teachings apply to the way we actually live and work in 2026.`,
+    date: '2026-04-01',
+    category: `Faith & Patriotism`,
+    content: `The Sermon on the Mount — Matthew chapters 5 through 7 — is three chapters of the most demanding, most beautiful, most subversive ethical teaching in human history. In less than 2,000 words of spoken instruction, Jesus of Nazareth turned conventional wisdom about power, status, revenge, prayer, anxiety, and human relationships completely upside down.
+
+People have been trying to live by it and failing ever since. And then getting up and trying again.
+
+Here's a look at the core teachings and what it looks like to actually apply them in the world we're living in now.
+
+## The Beatitudes: Blessing the Ones Who Don't Win
+
+The Beatitudes (Matthew 5:3-12) open with a series of statements that would have shocked Jesus's audience — and should still shock us, if we're paying attention.
+
+*Blessed are the poor in spirit, for theirs is the kingdom of heaven.*
+*Blessed are those who mourn, for they shall be comforted.*
+*Blessed are the meek, for they shall inherit the earth.*
+*Blessed are those who hunger and thirst for righteousness, for they shall be satisfied.*
+
+This is not a prosperity gospel. It is not "blessed are the successful" or "blessed are the powerful" or "blessed are the ones who've built the most impressive life." It is an explicit declaration that the people the world counts as losers — the grieving, the meek, the spiritually desperate — are the ones God sees.
+
+**Modern application:** The Beatitudes create a lens for how we see people. The grieving coworker, the meek person in the meeting who never gets heard, the person whose life by every visible measure seems to be falling apart — these are people whom Jesus specifically names as seen and valued.
+
+What would it mean to carry that lens into a workday? Into social media? Into how you vote? You might start noticing — and treating differently — the people who don't usually get noticed.
+
+## Salt and Light: Your Life Is Supposed to Do Something
+
+"You are the salt of the earth... you are the light of the world... let your light shine before others, so that they may see your good works and give glory to your Father who is in heaven." (Matthew 5:13-16)
+
+Salt preserves. Salt adds flavor. Light enables people to see what they couldn't see in darkness. These are not metaphors for visibility or personal branding. They're metaphors for function — for having an effect on the world around you.
+
+**Modern application:** Jesus is describing a calling to influence your actual environment. Not to be famous. Not to go viral. To be the kind of person in your household, your neighborhood, your workplace, your community that makes things better by being there.
+
+That's incredibly ordinary and incredibly demanding at the same time. Salt doesn't announce itself. It just does what it does.
+
+## On Anger: The Problem Before the Problem
+
+"You have heard that it was said to those of old, 'You shall not murder'... But I say to you that everyone who is angry with his brother will be liable to judgment." (Matthew 5:21-22)
+
+Jesus consistently goes deeper than the behavior to the condition that produces it. Murder starts with anger. Adultery starts with lust. Broken oaths start with a character that can't be trusted to keep ordinary speech true.
+
+**Modern application:** In a culture of outrage — where anger is constantly being manufactured, amplified, and rewarded by media algorithms — Jesus's teaching on anger is countercultural in the most direct possible way. He's not saying anger is never justified. He's saying that uncontrolled, nurtured, weaponized anger is a spiritual condition that needs to be addressed, not a righteous emotion to be expressed freely.
+
+The practical application: before you post, before you comment, before you reply — ask whether what you're about to do comes from a place of genuine concern or from a place of anger that's looking for an outlet. That's not censorship. That's the discipline Jesus is describing.
+
+## On Retaliation: The Hardest Teaching
+
+"You have heard that it was said, 'An eye for an eye and a tooth for a tooth.' But I say to you, Do not resist the one who is evil. But if anyone slaps you on the right cheek, turn to him the other also." (Matthew 5:38-39)
+
+This is the teaching that most people either ignore or misunderstand. Nonviolent resistance in the context of Jesus's teaching wasn't passivity — it was a specific form of dignified refusal to play by the oppressor's rules.
+
+The scholar Walter Wink argued that "turning the other cheek" in the first-century Roman context was actually a form of resistance — forcing the aggressor to treat you as an equal rather than a subordinate by refusing to respond to the violence of hierarchy with either submission or counter-violence.
+
+**Modern application:** The principle — responding to hostility without becoming hostile, refusing to let another person's bad behavior determine your behavior — is extraordinarily difficult and extraordinarily practical. In a family conflict, a workplace dispute, a political argument: the person who refuses to match escalation with escalation is not weak. They are exercising a specific kind of strength.
+
+## On Prayer and Anxiety: The Internal Life
+
+"Do not be anxious about your life, what you will eat or what you will drink, nor about your body, what you will put on. Is not life more than food, and the body more than clothing?" (Matthew 6:25)
+
+In an era of unprecedented anxiety — documented, measured, increasing — this teaching cuts to the heart of something. Jesus isn't giving a five-step plan for reducing cortisol. He's making a claim about what's actually true: you are cared for by a God who notices sparrows. Therefore anxiety about provisioning your life, while natural, is ultimately a failure to rest in that reality.
+
+**Modern application:** This doesn't mean ignore practical responsibilities. It means the anxious scarcity-thinking that treats every decision as survival-level important — that loses sleep over social media metrics and career ladders and financial projections — might be worth examining. "What does it profit a man to gain the whole world and forfeit his soul?" (Mark 8:36) is a question that applies directly to the 2026 hustle culture.
+
+## The Golden Rule: Deceptively Simple
+
+"So whatever you wish that others would do to you, do also to them, for this is the Law and the Prophets." (Matthew 7:12)
+
+It's the most famous ethical principle in the world. It's also the one most rarely applied in the moment of difficulty — when the person is annoying, when you disagree, when it would cost you something to treat them the way you'd want to be treated.
+
+**Modern application:** The Golden Rule applied to online behavior, to how you speak about people behind their backs, to how you treat service workers when you're in a hurry, to how you respond to the driver who cut you off — these are not grand moments of virtue. They're small moments of practice that, accumulated over a lifetime, form a character.
+
+---
+
+The Sermon on the Mount isn't a checklist to complete. It's a way of seeing — the world, other people, yourself — that requires a lifetime of returning to it and finding you've moved some distance toward it, and some distance away.
+
+*Explore the Sermon on the Mount and what it means for Christian life today at [Red White Jesus](/resources).*`,
+  },
+];
+posts.push(...aprilPosts2026);
