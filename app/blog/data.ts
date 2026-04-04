@@ -1427,7 +1427,7 @@ const aprilPosts2026: BlogPost[] = [
     description: `Online Christian community has grown dramatically — but does it replace the local church? We explore what digital faith communities offer, where they fall short, and how Christians can use both well.`,
     excerpt: `Online Christian community has grown dramatically — but does it replace the local church? We explore what digital faith communities offer, where they fall short, and how Christians can use both well.`,
     date: '2026-04-01',
-    category: `Faith & Patriotism`,
+    category: `Religion`,
     content: `The church has always adapted to new communication technologies. The printing press made widespread Bible literacy possible. Radio brought sermons into homes across the country. Television created the megachurch era. Each technology changed what church looked like without destroying what church is.
 
 Digital technology — the internet, social media, streaming, podcast platforms, online community tools — is the latest chapter in that story. And it's a genuinely complicated one.
@@ -1484,7 +1484,7 @@ The church is the body of Christ — an embodied reality. The digital tools are 
     description: `What does it mean to be a Christian American in 2026? As the relationship between faith and national identity grows more complicated, we explore what genuine Christian patriotism looks like.`,
     excerpt: `What does it mean to be a Christian American in 2026? As the relationship between faith and national identity grows more complicated, we explore what genuine Christian patriotism looks like.`,
     date: '2026-04-01',
-    category: `Faith & Patriotism`,
+    category: `Religion`,
     content: `This question — what it means to be both a committed Christian and a committed American — has never been more complicated or more important to think through carefully.
 
 The easy version of Christian patriotism has always been available: God blessed America, America is a Christian nation, loving your country and loving God are the same thing, wrapped in a flag and a cross. That version has a long history in American public life, and it has real appeal.
@@ -1545,7 +1545,7 @@ That's harder than flag-waving. It's also more faithful.
     description: `The Sermon on the Mount is the most radical piece of practical ethics in history. Here's how its core teachings apply to the way we actually live and work in 2026.`,
     excerpt: `The Sermon on the Mount is the most radical piece of practical ethics in history. Here's how its core teachings apply to the way we actually live and work in 2026.`,
     date: '2026-04-01',
-    category: `Faith & Patriotism`,
+    category: `Religion`,
     content: `The Sermon on the Mount — Matthew chapters 5 through 7 — is three chapters of the most demanding, most beautiful, most subversive ethical teaching in human history. In less than 2,000 words of spoken instruction, Jesus of Nazareth turned conventional wisdom about power, status, revenge, prayer, anxiety, and human relationships completely upside down.
 
 People have been trying to live by it and failing ever since. And then getting up and trying again.
