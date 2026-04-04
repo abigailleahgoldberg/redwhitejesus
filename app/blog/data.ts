@@ -12,6 +12,7 @@ export const posts: BlogPost[] = [
   {
     slug: 'easter-2026-the-resurrection-and-what-it-means',
     title: 'Easter 2026: The Resurrection and What It Means for Christian Faith Today',
+    description: 'An honest reflection on the central event of Christianity and why it still matters.',
     excerpt: 'An honest reflection on the central event of Christianity and why it still matters.',
     content: `Easter is the oldest and most important Christian holiday, but it is also the one most often outshadowed by cultural practices that have nothing to do with the religious meaning. Easter eggs and bunnies and spring dresses are fine but they are not Easter. Easter is the claim that Jesus was executed, dead for three days, and rose from the dead. Everything else in Christianity follows from whether you believe that is true or not.
 
@@ -30,6 +31,7 @@ Easter comes as spring does. New life emerging from winter. That parallel is not
   {
     slug: 'holy-week-2026-palm-sunday-through-easter',
     title: 'Holy Week 2026: A Guide to Palm Sunday, Maundy Thursday, Good Friday, and Easter',
+    description: 'Understanding the Christian calendar\'s most sacred week.',
     excerpt: 'Understanding the Christian calendar\'s most sacred week.',
     content: `Holy Week is the seven days before Easter, and each day carries specific meaning and observance in Christian tradition. Understanding the week requires knowing the story and understanding why Christians mark each day differently.
 
